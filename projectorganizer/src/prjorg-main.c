@@ -29,6 +29,13 @@
 #include "prjorg-sidebar.h"
 #include "prjorg-menu.h"
 
+#if !GTK_CHECK_VERSION(2, 20, 0)
+    inline gboolean gtk_widget_get_realized(GtkWidget *widget)
+    {
+	    return GTK_WIDGET_REALIZED(widget);
+    }
+#define gtk_widget_get_realized
+#endif
 
 GeanyPlugin *geany_plugin;
 GeanyData *geany_data;
