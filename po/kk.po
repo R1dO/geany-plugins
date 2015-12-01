@@ -1,66 +1,63 @@
-# Belarussian translation for geany-plugins
-# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the geany-plugins package.
-# Yura Siamshka <yurand2@gmail.com>
+# Kazakh translation for geany plugins.
+# Copyright (C) 2015 The Geany team
+# This file is distributed under the same license as the Geany plugins package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Geany-plugins 1.25\n"
+"Project-Id-Version: Geany-Plugins 1.26\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-27 23:00+0100\n"
-"PO-Revision-Date: 2009-06-11 10:15+0200\n"
-"Last-Translator: Yura Siamshka <yurand2@gmail.com>>\n"
-"Language-Team: Belarusian <geany-i18n@uvena.de>\n"
-"Language: be\n"
+"POT-Creation-Date: 2015-11-02 03:19+0000\n"
+"PO-Revision-Date: 2015-11-02 21:45+0500\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Belarusian\n"
-"X-Poedit-Country: BELARUS\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: ../addons/src/ao_bookmarklist.c:190
 msgid "(Empty Line)"
-msgstr ""
+msgstr "(Бос жол)"
 
 #: ../addons/src/ao_bookmarklist.c:315
 msgid "_Remove Bookmark"
-msgstr ""
+msgstr "Бетбелгіні ө_шіру"
 
 #. Translators: Number is meant at this point.
 #: ../addons/src/ao_bookmarklist.c:342
 msgid "No."
-msgstr ""
+msgstr "Жоқ."
 
 #: ../addons/src/ao_bookmarklist.c:350 ../devhelp/src/dhp-object.c:494
 #: ../devhelp/devhelp/dh-window.c:1142
 msgid "Contents"
-msgstr ""
+msgstr "Құрамасы"
 
 #: ../addons/src/ao_bookmarklist.c:383 ../treebrowser/src/treebrowser.c:624
 #: ../webhelper/src/gwh-plugin.c:329
 msgid "Bookmarks"
-msgstr ""
+msgstr "Бетбелгілер"
 
 #. complete update
 #: ../addons/src/ao_tasks.c:373 ../geanyvc/src/geanyvc.c:2352
 msgid "_Update"
-msgstr ""
+msgstr "_Жаңарту"
 
 #: ../addons/src/ao_tasks.c:382
 msgid "_Hide Message Window"
-msgstr ""
+msgstr "_Хабарламалар терезесін жасыру"
 
 #: ../addons/src/ao_tasks.c:412 ../debugger/src/stree.c:387
-#, fuzzy
 msgid "File"
-msgstr "Дадаць файл"
+msgstr "Файл"
 
 #: ../addons/src/ao_tasks.c:423 ../debugger/src/bptree.c:702
 #: ../debugger/src/stree.c:394
 msgid "Line"
-msgstr ""
+msgstr "Жол"
 
 #. i18n: in the programming language context, if you don't
 #. * have an ESTABLISHED term for it, leave it
@@ -68,15 +65,15 @@ msgstr ""
 #: ../addons/src/ao_tasks.c:434 ../debugger/src/vtree.c:204
 #: ../devhelp/devhelp/dh-link.c:287 ../geanylatex/src/bibtexlabels.c:68
 msgid "Type"
-msgstr ""
+msgstr "Түрі"
 
 #: ../addons/src/ao_tasks.c:445
 msgid "Task"
-msgstr ""
+msgstr "Тапсырма"
 
 #: ../addons/src/ao_tasks.c:478
 msgid "Tasks"
-msgstr ""
+msgstr "Тапсырмалар"
 
 #: ../addons/src/ao_tasks.c:542
 msgid "Context:"
@@ -111,15 +108,15 @@ msgstr ""
 
 #: ../addons/src/ao_wrapwords.c:253
 msgid "Accept"
-msgstr ""
+msgstr "Қабылдау"
 
 #: ../addons/src/ao_wrapwords.c:254 ../geanymacro/src/geanymacro.c:1064
 msgid "Cancel"
-msgstr ""
+msgstr "Болдырмау"
 
 #: ../addons/src/ao_wrapwords.c:254
 msgid "OK"
-msgstr ""
+msgstr "ОК"
 
 #: ../addons/src/ao_wrapwords.c:263
 #, c-format
@@ -136,11 +133,11 @@ msgstr ""
 
 #: ../addons/src/ao_doclist.c:214
 msgid "Close Ot_her Documents"
-msgstr ""
+msgstr "Б_асқа құжаттарды жабу"
 
 #: ../addons/src/ao_doclist.c:219
 msgid "C_lose All"
-msgstr ""
+msgstr "Бар_лығын жабу"
 
 #: ../addons/src/ao_doclist.c:249
 msgid "Show Document List"
@@ -191,7 +188,7 @@ msgstr ""
 #: ../treebrowser/src/treebrowser.c:1938
 #: ../updatechecker/src/updatechecker.c:267
 msgid "Plugin configuration directory could not be created."
-msgstr ""
+msgstr "Плагиннің баптаулар бумасын жасау мүмкін емес."
 
 #: ../addons/src/addons.c:461
 msgid "Show toolbar item to show a list of currently open documents"
@@ -293,7 +290,7 @@ msgstr ""
 
 #: ../autoclose/src/autoclose.c:1034
 msgid "Parenthesis ( )"
-msgstr ""
+msgstr "Жақшалар ( )"
 
 #: ../autoclose/src/autoclose.c:1035
 msgid "Auto-close parenthesis \"(\" -> \"(|)\""
@@ -301,7 +298,7 @@ msgstr ""
 
 #: ../autoclose/src/autoclose.c:1037
 msgid "Curly brackets { }"
-msgstr ""
+msgstr "Пішінді жақша { }"
 
 #: ../autoclose/src/autoclose.c:1038
 msgid "Auto-close curly brackets \"{\" -> \"{|}\""
@@ -309,7 +306,7 @@ msgstr ""
 
 #: ../autoclose/src/autoclose.c:1040
 msgid "Square brackets [ ]"
-msgstr ""
+msgstr "Тік жақша [ ]"
 
 #: ../autoclose/src/autoclose.c:1041
 msgid "Auto-close square brackets \"[\" -> \"[|]\""
@@ -333,7 +330,7 @@ msgstr ""
 
 #: ../autoclose/src/autoclose.c:1047
 msgid "Double quotes \" \""
-msgstr ""
+msgstr "Тырнақша \" \""
 
 #: ../autoclose/src/autoclose.c:1048
 msgid "Auto-close double quotes \" -> \"|\""
@@ -341,7 +338,7 @@ msgstr ""
 
 #: ../autoclose/src/autoclose.c:1049
 msgid "Single quotes ' '"
-msgstr ""
+msgstr "Бірлік тырнақша ' '"
 
 #: ../autoclose/src/autoclose.c:1050
 msgid "Auto-close single quotes ' -> '|'"
@@ -380,9 +377,8 @@ msgid ""
 msgstr ""
 
 #: ../autoclose/src/autoclose.c:1064
-#, fuzzy
 msgid "Move cursor to beginning"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../autoclose/src/autoclose.c:1065
 msgid ""
@@ -432,9 +428,8 @@ msgid ""
 msgstr ""
 
 #: ../autoclose/src/autoclose.c:1084
-#, fuzzy
 msgid "Enclose selections"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../autoclose/src/autoclose.c:1085
 msgid "Automatically enclose selected text by pressing just one bracket key."
@@ -571,18 +566,16 @@ msgid "%s not found, create it?"
 msgstr ""
 
 #: ../commander/src/commander-plugin.c:43
-#, fuzzy
 msgid "Commander"
-msgstr "Каманда 0:"
+msgstr ""
 
 #: ../commander/src/commander-plugin.c:44
 msgid "Provides a command panel for quick access to actions, files and more"
 msgstr ""
 
 #: ../commander/src/commander-plugin.c:752
-#, fuzzy
 msgid "Show Command Panel"
-msgstr "Каманда 0:"
+msgstr ""
 
 #: ../debugger/src/plugin.c:56
 msgid "Debugger"
@@ -595,16 +588,15 @@ msgstr ""
 #: ../debugger/src/plugin.c:133 ../debugger/src/keys.c:76
 #: ../scope/data/scope.glade.h:124 ../scope/src/scope.c:225
 msgid "Debug"
-msgstr ""
+msgstr "Жөндеу"
 
 #: ../debugger/src/vtree.c:173 ../debugger/src/envtree.c:425
-#, fuzzy
 msgid "Name"
-msgstr "Імя:"
+msgstr "Аты"
 
 #: ../debugger/src/vtree.c:196 ../debugger/src/envtree.c:430
 msgid "Value"
-msgstr ""
+msgstr "Мәні"
 
 #: ../debugger/src/tpage.c:105
 msgid "Choose target file"
@@ -617,7 +609,7 @@ msgstr ""
 
 #: ../debugger/src/tpage.c:254
 msgid "Browse"
-msgstr ""
+msgstr "Қарап шығу"
 
 #. debugger
 #: ../debugger/src/tpage.c:259
@@ -626,9 +618,8 @@ msgstr ""
 
 #. arguments
 #: ../debugger/src/tpage.c:270
-#, fuzzy
 msgid "Command Line Arguments"
-msgstr "Каманда 0:"
+msgstr ""
 
 #. environment
 #: ../debugger/src/tpage.c:281
@@ -638,14 +629,12 @@ msgstr ""
 #. if name is empty - offer to delete variable
 #: ../debugger/src/envtree.c:260 ../debugger/src/envtree.c:366
 #: ../debugger/src/debug.c:264
-#, fuzzy
 msgid "Delete variable?"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../debugger/src/bptree.c:676
-#, fuzzy
 msgid "Location"
-msgstr "Лакацыя:"
+msgstr "Орналасуы"
 
 #: ../debugger/src/bptree.c:685
 msgid "Condition"
@@ -711,14 +700,14 @@ msgstr ""
 
 #: ../debugger/src/stree.c:363 ../geanylatex/src/bibtexlabels.c:46
 msgid "Address"
-msgstr ""
+msgstr "Адресі"
 
 #. i18n: in the programming language context, if you don't
 #. * have an ESTABLISHED term for it, leave it
 #. * untranslated.
 #: ../debugger/src/stree.c:381 ../devhelp/devhelp/dh-link.c:267
 msgid "Function"
-msgstr ""
+msgstr "Функция"
 
 #: ../debugger/src/stree.c:533
 #, c-format
@@ -727,7 +716,7 @@ msgstr ""
 
 #: ../debugger/src/tabs.c:132
 msgid "Target"
-msgstr ""
+msgstr "Мақсат"
 
 #: ../debugger/src/tabs.c:135 ../scope/src/scope.c:520
 msgid "Breakpoints"
@@ -759,11 +748,11 @@ msgstr ""
 
 #: ../debugger/src/keys.c:50 ../debugger/src/btnpanel.c:101
 msgid "Stop"
-msgstr ""
+msgstr "Тоқтату"
 
 #: ../debugger/src/keys.c:51 ../debugger/src/btnpanel.c:98
 msgid "Restart"
-msgstr ""
+msgstr "Қайта қосу"
 
 #: ../debugger/src/keys.c:52 ../debugger/src/btnpanel.c:113
 #: ../scope/src/scope.c:65
@@ -803,11 +792,11 @@ msgstr ""
 
 #: ../debugger/src/btnpanel.c:90 ../debugger/src/btnpanel.c:159
 msgid "Run"
-msgstr ""
+msgstr "Жөнелту"
 
 #: ../debugger/src/btnpanel.c:132
 msgid "Settings"
-msgstr ""
+msgstr "Баптаулар"
 
 #: ../debugger/src/btnpanel.c:136
 msgid "Two panel mode"
@@ -815,7 +804,7 @@ msgstr ""
 
 #: ../debugger/src/btnpanel.c:154
 msgid "Continue"
-msgstr ""
+msgstr "Жалғастыру"
 
 #: ../debugger/src/dconfig.c:674
 msgid "Save debug session data to a project"
@@ -831,9 +820,8 @@ msgstr ""
 
 #. never search for more than this many chars
 #: ../devhelp/src/dhp.h:38
-#, fuzzy
 msgid "Documentation"
-msgstr "Інтэрактыўная даведка"
+msgstr "Құжаттама"
 
 #: ../devhelp/src/dhp.h:39
 msgid "Code"
@@ -865,15 +853,15 @@ msgstr ""
 
 #: ../devhelp/src/dhp-object.c:445
 msgid "Zoom in"
-msgstr ""
+msgstr "Үлкейту"
 
 #: ../devhelp/src/dhp-object.c:446
 msgid "Zoom out"
-msgstr ""
+msgstr "Кішірейту"
 
 #: ../devhelp/src/dhp-object.c:497 ../devhelp/devhelp/dh-window.c:1152
 msgid "Search"
-msgstr ""
+msgstr "Іздеу"
 
 #: ../devhelp/src/dhp-object.c:1305
 #, c-format
@@ -914,9 +902,8 @@ msgid "Toggle sidebar search tab"
 msgstr ""
 
 #: ../devhelp/src/dhp-plugin.c:176
-#, fuzzy
 msgid "Toggle documentation tab"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #: ../devhelp/src/dhp-plugin.c:178
 msgid "Activate all tabs"
@@ -942,18 +929,18 @@ msgstr ""
 #. i18n: a documentation book
 #: ../devhelp/devhelp/dh-link.c:255 ../geanylatex/src/geanylatex.c:1784
 msgid "Book"
-msgstr ""
+msgstr "Кітап"
 
 #. i18n: a "page" in a documentation book
 #: ../devhelp/devhelp/dh-link.c:258
 msgid "Page"
-msgstr ""
+msgstr "Бет:"
 
 #. i18n: a search hit in the documentation, could be a
 #. * function, macro, struct, etc
 #: ../devhelp/devhelp/dh-link.c:262
 msgid "Keyword"
-msgstr ""
+msgstr "Кілт сөз"
 
 #. i18n: in the programming language context, if you don't
 #. * have an ESTABLISHED term for it, leave it
@@ -966,9 +953,8 @@ msgstr ""
 #. * have an ESTABLISHED term for it, leave it
 #. * untranslated.
 #: ../devhelp/devhelp/dh-link.c:277
-#, fuzzy
 msgid "Macro"
-msgstr "Імя:"
+msgstr "Макрос"
 
 #. i18n: in the programming language context, if you don't
 #. * have an ESTABLISHED term for it, leave it
@@ -1027,39 +1013,39 @@ msgstr ""
 
 #: ../devhelp/devhelp/dh-window.c:98
 msgid "50%"
-msgstr ""
+msgstr "50%"
 
 #: ../devhelp/devhelp/dh-window.c:99
 msgid "75%"
-msgstr ""
+msgstr "75%"
 
 #: ../devhelp/devhelp/dh-window.c:100
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #: ../devhelp/devhelp/dh-window.c:101
 msgid "125%"
-msgstr ""
+msgstr "125%"
 
 #: ../devhelp/devhelp/dh-window.c:102
 msgid "150%"
-msgstr ""
+msgstr "150%"
 
 #: ../devhelp/devhelp/dh-window.c:103
 msgid "175%"
-msgstr ""
+msgstr "175%"
 
 #: ../devhelp/devhelp/dh-window.c:104
 msgid "200%"
-msgstr ""
+msgstr "200%"
 
 #: ../devhelp/devhelp/dh-window.c:105
 msgid "300%"
-msgstr ""
+msgstr "300%"
 
 #: ../devhelp/devhelp/dh-window.c:106
 msgid "400%"
-msgstr ""
+msgstr "400%"
 
 #: ../devhelp/devhelp/dh-window.c:722
 msgid "translator_credits"
@@ -1070,49 +1056,46 @@ msgid "A developers' help browser for GNOME"
 msgstr ""
 
 #: ../devhelp/devhelp/dh-window.c:759 ../geanyvc/src/geanyvc.c:2066
-#, fuzzy
 msgid "_File"
-msgstr "Дадаць файл"
+msgstr "_Файл"
 
 #: ../devhelp/devhelp/dh-window.c:760 ../geanymacro/src/geanymacro.c:1822
 #: ../geanymacro/src/geanymacro.c:2118
 msgid "_Edit"
-msgstr ""
+msgstr "Тү_зету"
 
 #: ../devhelp/devhelp/dh-window.c:761
 msgid "_View"
-msgstr ""
+msgstr "_Түрі"
 
 #: ../devhelp/devhelp/dh-window.c:762
 msgid "_Go"
-msgstr ""
+msgstr "Ө_ту"
 
 #: ../devhelp/devhelp/dh-window.c:763
 msgid "_Help"
-msgstr ""
+msgstr "_Көмек"
 
 #. File menu
 #: ../devhelp/devhelp/dh-window.c:766
 msgid "_New Window"
-msgstr ""
+msgstr "Жаңа тере_зе"
 
 #: ../devhelp/devhelp/dh-window.c:768
 msgid "New _Tab"
-msgstr ""
+msgstr "Жаңа _бет"
 
 #: ../devhelp/devhelp/dh-window.c:770
 msgid "_Print…"
-msgstr ""
+msgstr "Бас_паға шығару…"
 
 #: ../devhelp/devhelp/dh-window.c:782 ../devhelp/devhelp/eggfindbar.c:342
-#, fuzzy
 msgid "Find Next"
-msgstr "Дадаць файл"
+msgstr "Келесісін табу"
 
 #: ../devhelp/devhelp/dh-window.c:784 ../devhelp/devhelp/eggfindbar.c:329
-#, fuzzy
 msgid "Find Previous"
-msgstr "Знайсьці і праэкце"
+msgstr "Алдыңғысын табу"
 
 #: ../devhelp/devhelp/dh-window.c:791
 msgid "Go to the previous page"
@@ -1149,7 +1132,7 @@ msgstr ""
 
 #: ../devhelp/devhelp/dh-window.c:810
 msgid "_Normal Size"
-msgstr ""
+msgstr "Қалы_пты өлшемі"
 
 #: ../devhelp/devhelp/dh-window.c:811
 msgid "Use the normal text size"
@@ -1157,7 +1140,7 @@ msgstr ""
 
 #: ../devhelp/devhelp/dh-window.c:820
 msgid "Leave fullscreen mode"
-msgstr ""
+msgstr "Толық экраннан шығу"
 
 #: ../devhelp/devhelp/dh-window.c:827
 msgid "Display in full screen"
@@ -1166,12 +1149,12 @@ msgstr ""
 #. Translators: This refers to text size
 #: ../devhelp/devhelp/dh-window.c:947
 msgid "Larger"
-msgstr ""
+msgstr "Үлкенірек"
 
 #. Translators: This refers to text size
 #: ../devhelp/devhelp/dh-window.c:950
 msgid "Smaller"
-msgstr ""
+msgstr "Кішірек"
 
 #. i18n: please don't translate
 #. * "Devhelp", it's a name, not a
@@ -1181,9 +1164,8 @@ msgid "About Devhelp"
 msgstr ""
 
 #: ../devhelp/devhelp/dh-window.c:1100
-#, fuzzy
 msgid "Preferences…"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../devhelp/devhelp/dh-window.c:1330
 msgid "Error opening the requested link."
@@ -1195,19 +1177,19 @@ msgstr ""
 
 #: ../devhelp/devhelp/eggfindbar.c:320
 msgid "Find:"
-msgstr ""
+msgstr "Іздеу:"
 
 #: ../devhelp/devhelp/eggfindbar.c:333 ../devhelp/devhelp/eggfindbar.c:336
 msgid "Find previous occurrence of the search string"
-msgstr ""
+msgstr "Ізделетін мәтіннің алдыңғы кездесуін табу"
 
 #: ../devhelp/devhelp/eggfindbar.c:346 ../devhelp/devhelp/eggfindbar.c:349
 msgid "Find next occurrence of the search string"
-msgstr ""
+msgstr "Ізделетін мәтіннің келесі кездесуін табу"
 
 #: ../devhelp/devhelp/eggfindbar.c:358
 msgid "C_ase Sensitive"
-msgstr ""
+msgstr "Р_егистрге тәуелді іздеу"
 
 #: ../devhelp/devhelp/eggfindbar.c:362 ../devhelp/devhelp/eggfindbar.c:365
 msgid "Toggle case sensitive search"
@@ -1220,7 +1202,7 @@ msgstr ""
 #: ../geanyctags/src/geanyctags.c:149
 #, c-format
 msgid "%s (in directory: %s)"
-msgstr ""
+msgstr "%s (бумада: %s)"
 
 #: ../geanyctags/src/geanyctags.c:164
 #, c-format
@@ -1247,13 +1229,12 @@ msgstr ""
 #: ../projectorganizer/src/prjorg-sidebar.c:156
 #: ../projectorganizer/src/prjorg-sidebar.c:500
 msgid "C_ase sensitive"
-msgstr ""
+msgstr "Р_егистрге тәуелді"
 
 #: ../geanyctags/src/geanyctags.c:565
 #: ../projectorganizer/src/prjorg-sidebar.c:503
-#, fuzzy
 msgid "_Declaration"
-msgstr "Лакацыя:"
+msgstr ""
 
 #: ../geanyctags/src/geanyctags.c:632
 msgid "Find Tag Declaration (geanyctags)"
@@ -1268,47 +1249,45 @@ msgid "Generate tags"
 msgstr ""
 
 #: ../geanyctags/src/geanyctags.c:653 ../geanyctags/src/geanyctags.c:658
-#, fuzzy
 msgid "Find tag"
-msgstr "Дадаць файл"
+msgstr ""
 
 #. All plugins must set name, description, version and author.
 #: ../geanydoc/src/geanydoc.c:50 ../geanydoc/src/geanydoc.c:347
 msgid "Doc"
-msgstr "Даведка"
+msgstr ""
 
 #: ../geanydoc/src/geanydoc.c:50
 msgid "Call documentation viewer on current symbol."
-msgstr "Паказаць даведку па слове, на якім засяроджаны курсор."
+msgstr ""
 
 #: ../geanydoc/src/geanydoc.c:170 ../geanyvc/src/geanyvc.c:416
 msgid "Could not parse the output of command"
-msgstr "Немагчыма прааналізаваць вывад каманды"
+msgstr ""
 
 #: ../geanydoc/src/geanydoc.c:357
 msgid "Put output in buffer"
-msgstr "Выводзіць у буфер"
+msgstr ""
 
 #: ../geanydoc/src/geanydoc.c:369
 msgid "Command 0:"
-msgstr "Каманда 0:"
+msgstr ""
 
 #: ../geanydoc/src/geanydoc.c:375
 msgid "Command 1:"
-msgstr "Каманда 1:"
+msgstr ""
 
 #: ../geanydoc/src/geanydoc.c:393
 msgid "%w will be replaced with current word\n"
-msgstr "%w будзе заменены на слова, на якім засяроджаны курсор\n"
+msgstr ""
 
 #: ../geanydoc/src/geanydoc.c:440
 msgid "Document current word"
-msgstr "Даведка па слове, на якім засяроджаны курсор"
+msgstr ""
 
 #: ../geanydoc/src/geanydoc.c:441
-#, fuzzy
 msgid "Document interactive"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #: ../geanyextrasel/src/extrasel.c:34
 msgid "Extra Selection"
@@ -1335,9 +1314,8 @@ msgid "Select to _Line"
 msgstr ""
 
 #: ../geanyextrasel/src/extrasel.c:520
-#, fuzzy
 msgid "Select to line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanyextrasel/src/extrasel.c:522
 msgid "Select to Matching _Brace"
@@ -1352,9 +1330,8 @@ msgid "_Toggle Stream/Rectangular"
 msgstr ""
 
 #: ../geanyextrasel/src/extrasel.c:532
-#, fuzzy
 msgid "Convert selection"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanyextrasel/src/extrasel.c:537
 msgid "_Set Anchor"
@@ -1365,14 +1342,12 @@ msgid "Set anchor"
 msgstr ""
 
 #: ../geanyextrasel/src/extrasel.c:543
-#, fuzzy
 msgid "Select to _Anchor"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanyextrasel/src/extrasel.c:547
-#, fuzzy
 msgid "Select to anchor"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanyextrasel/src/extrasel.c:549
 msgid "_Rectangle Select to Anchor"
@@ -1424,9 +1399,8 @@ msgid "invalid merge policy \"%s\""
 msgstr ""
 
 #: ../geanygendoc/src/ggd-file-type-loader.c:259
-#, fuzzy
 msgid "type"
-msgstr "Тып:"
+msgstr ""
 
 #: ../geanygendoc/src/ggd-file-type-loader.c:266
 #, c-format
@@ -1538,9 +1512,8 @@ msgid "Failed to load file type \"%s\" from file \"%s\": %s"
 msgstr ""
 
 #: ../geanygendoc/src/ggd-plugin.c:57
-#, fuzzy
 msgid "Documentation Generator"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #: ../geanygendoc/src/ggd-plugin.c:58
 msgid "Generates documentation basis from source code"
@@ -1578,14 +1551,12 @@ msgid "Insert Documentation Comment"
 msgstr ""
 
 #: ../geanygendoc/src/ggd-plugin.c:480
-#, fuzzy
 msgid "_Document Current Symbol"
-msgstr "Даведка па слове, на якім засяроджаны курсор"
+msgstr ""
 
 #: ../geanygendoc/src/ggd-plugin.c:481
-#, fuzzy
 msgid "Generate documentation for the current symbol"
-msgstr "Паказаць даведку па слове, на якім засяроджаны курсор."
+msgstr ""
 
 #: ../geanygendoc/src/ggd-plugin.c:487
 msgid "Document _All Symbols"
@@ -1621,14 +1592,13 @@ msgstr ""
 
 #. build tools menu item
 #: ../geanygendoc/src/ggd-plugin.c:520
-#, fuzzy
 msgid "_Documentation Generator"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #. General
 #: ../geanygendoc/src/ggd-plugin.c:619
 msgid "General"
-msgstr ""
+msgstr "Жалпы"
 
 #. auto-save
 #: ../geanygendoc/src/ggd-plugin.c:624
@@ -1659,9 +1629,8 @@ msgstr ""
 #. Documentation type
 #: ../geanygendoc/src/ggd-plugin.c:646
 #: ../geanygendoc/src/ggd-widget-doctype-selector.c:144
-#, fuzzy
 msgid "Documentation type"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #: ../geanygendoc/src/ggd-plugin.c:656
 msgid ""
@@ -1753,21 +1722,19 @@ msgstr ""
 
 #: ../geanygendoc/src/ggd-widget-doctype-selector.c:135
 msgid "Language"
-msgstr ""
+msgstr "Тіл"
 
 #: ../geanygendoc/src/ggd-widget-doctype-selector.c:155
-#, fuzzy
 msgid "_Change associated documentation type"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #: ../geanygendoc/src/ggd-widget-doctype-selector.c:163
-#, fuzzy
 msgid "_Disassociate documentation type"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #: ../geanygendoc/src/ggd-widget-doctype-selector.c:194
 msgid "All"
-msgstr ""
+msgstr "Барлығы"
 
 #: ../geanygendoc/src/ggd-widget-doctype-selector.c:195
 msgid "Default documentation type for languages that does not have one set"
@@ -1775,9 +1742,8 @@ msgstr ""
 
 #: ../geanyinsertnum/src/insertnum.c:44 ../geanyinsertnum/src/insertnum.c:335
 #: ../geanyinsertnum/src/insertnum.c:485
-#, fuzzy
 msgid "Insert Numbers"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanyinsertnum/src/insertnum.c:44
 msgid "Insert/Fill columns with numbers."
@@ -1789,7 +1755,7 @@ msgstr ""
 
 #: ../geanyinsertnum/src/insertnum.c:192
 msgid "Preparing..."
-msgstr ""
+msgstr "Дайындау..."
 
 #: ../geanyinsertnum/src/insertnum.c:198
 msgid "Inserting..."
@@ -1808,9 +1774,8 @@ msgid "S_tep:"
 msgstr ""
 
 #: ../geanyinsertnum/src/insertnum.c:362
-#, fuzzy
 msgid "_Base:"
-msgstr "Базавы шлях:"
+msgstr ""
 
 #: ../geanyinsertnum/src/insertnum.c:378
 msgid "Letters:"
@@ -1845,9 +1810,8 @@ msgid "_Zero"
 msgstr ""
 
 #: ../geanyinsertnum/src/insertnum.c:478
-#, fuzzy
 msgid "Insert _Numbers"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/latexenvironments.c:25
 msgid "Environments"
@@ -1855,20 +1819,19 @@ msgstr ""
 
 #: ../geanylatex/src/latexenvironments.c:26
 msgid "Formatting"
-msgstr ""
+msgstr "Пішімдеу"
 
 #: ../geanylatex/src/latexenvironments.c:27
-#, fuzzy
 msgid "Document Structure"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #: ../geanylatex/src/latexenvironments.c:28
 msgid "Lists"
-msgstr ""
+msgstr "Тізімдер"
 
 #: ../geanylatex/src/latexenvironments.c:29
 msgid "Math"
-msgstr ""
+msgstr "Математика"
 
 #: ../geanylatex/src/latexenvironments.c:194
 msgid "Insert Environment"
@@ -1952,7 +1915,7 @@ msgstr ""
 
 #: ../geanylatex/src/bibtexlabels.c:48
 msgid "Author"
-msgstr ""
+msgstr "Авторы"
 
 #: ../geanylatex/src/bibtexlabels.c:49
 msgid "Booktitle"
@@ -1960,7 +1923,7 @@ msgstr ""
 
 #: ../geanylatex/src/bibtexlabels.c:50
 msgid "Chapter"
-msgstr ""
+msgstr "Бөлім"
 
 #: ../geanylatex/src/bibtexlabels.c:51
 msgid "Crossref"
@@ -1972,7 +1935,7 @@ msgstr ""
 
 #: ../geanylatex/src/bibtexlabels.c:53
 msgid "Editor"
-msgstr ""
+msgstr "Түзетуші"
 
 #: ../geanylatex/src/bibtexlabels.c:54
 msgid "E-print"
@@ -1988,31 +1951,31 @@ msgstr ""
 
 #: ../geanylatex/src/bibtexlabels.c:57
 msgid "Journal"
-msgstr ""
+msgstr "Журнал"
 
 #: ../geanylatex/src/bibtexlabels.c:58
 msgid "Key"
-msgstr ""
+msgstr "Кілт"
 
 #: ../geanylatex/src/bibtexlabels.c:59
 msgid "Month"
-msgstr ""
+msgstr "Ай"
 
 #: ../geanylatex/src/bibtexlabels.c:60
 msgid "Note"
-msgstr ""
+msgstr "Ескерту"
 
 #: ../geanylatex/src/bibtexlabels.c:61
 msgid "Number"
-msgstr ""
+msgstr "Нөмір"
 
 #: ../geanylatex/src/bibtexlabels.c:62
 msgid "Organization"
-msgstr ""
+msgstr "Ұйым"
 
 #: ../geanylatex/src/bibtexlabels.c:63
 msgid "Pages"
-msgstr ""
+msgstr "Беттер"
 
 #: ../geanylatex/src/bibtexlabels.c:64
 msgid "Publisher"
@@ -2028,11 +1991,11 @@ msgstr ""
 
 #: ../geanylatex/src/bibtexlabels.c:67
 msgid "Title"
-msgstr ""
+msgstr "Атауы"
 
 #: ../geanylatex/src/bibtexlabels.c:69
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../geanylatex/src/bibtexlabels.c:70
 msgid "Volume"
@@ -2040,7 +2003,7 @@ msgstr ""
 
 #: ../geanylatex/src/bibtexlabels.c:71
 msgid "Year"
-msgstr ""
+msgstr "Жыл"
 
 #: ../geanylatex/src/bibtexlabels.c:103
 msgid "Address of publisher"
@@ -2174,7 +2137,7 @@ msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:120 ../geanylatex/src/formatpatterns.c:45
 msgid "Centered"
-msgstr ""
+msgstr "Ортасына қарай"
 
 #: ../geanylatex/src/geanylatex.c:121 ../geanylatex/src/formatpatterns.c:46
 msgid "Left side oriented"
@@ -2229,29 +2192,24 @@ msgid "Insert Command"
 msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:859
-#, fuzzy
 msgid "Command name:"
-msgstr "Каманда 0:"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:902
-#, fuzzy
 msgid "Insert Reference"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:915
-#, fuzzy
 msgid "Reference name:"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:940
-#, fuzzy
 msgid "_Standard Reference"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:945
-#, fuzzy
 msgid "_Page Reference"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:950
 msgid "_Add both"
@@ -2259,7 +2217,7 @@ msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:1147
 msgid "More"
-msgstr ""
+msgstr "Көбірек"
 
 #: ../geanylatex/src/geanylatex.c:1203
 msgid "Add additional package"
@@ -2274,14 +2232,12 @@ msgid "Package options:"
 msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:1267
-#, fuzzy
 msgid "Insert BibTeX Reference"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:1280
-#, fuzzy
 msgid "BibTeX reference name:"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:1704
 msgid "Dear Sir or Madame"
@@ -2306,7 +2262,7 @@ msgstr ""
 #. TEMPLATE FILE
 #: ../geanylatex/src/geanylatex.c:1755 ../markdown/src/conf.c:659
 msgid "Template:"
-msgstr ""
+msgstr "Үлгі:"
 
 #: ../geanylatex/src/geanylatex.c:1759
 msgid "Set the template which should be used for creating the new document"
@@ -2314,7 +2270,7 @@ msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:1768
 msgid "Default"
-msgstr ""
+msgstr "Үнсіз келісім бойынша"
 
 #. Documentclass
 #: ../geanylatex/src/geanylatex.c:1779
@@ -2327,7 +2283,7 @@ msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:1786
 msgid "Article"
-msgstr ""
+msgstr "Мақала"
 
 #: ../geanylatex/src/geanylatex.c:1788
 msgid "Report"
@@ -2339,12 +2295,12 @@ msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:1792
 msgid "Presentation"
-msgstr ""
+msgstr "Презентация"
 
 #. Encoding
 #: ../geanylatex/src/geanylatex.c:1802
 msgid "Encoding:"
-msgstr ""
+msgstr "Кодталуы:"
 
 #: ../geanylatex/src/geanylatex.c:1806
 msgid "Set the encoding for your new document"
@@ -2362,7 +2318,7 @@ msgstr ""
 #. Author
 #: ../geanylatex/src/geanylatex.c:1840
 msgid "Author:"
-msgstr ""
+msgstr "Авторы:"
 
 #: ../geanylatex/src/geanylatex.c:1843
 msgid ""
@@ -2372,9 +2328,8 @@ msgstr ""
 
 #. Date
 #: ../geanylatex/src/geanylatex.c:1857
-#, fuzzy
 msgid "Date:"
-msgstr "Імя:"
+msgstr "Күні:"
 
 #: ../geanylatex/src/geanylatex.c:1860
 msgid ""
@@ -2386,7 +2341,7 @@ msgstr ""
 #. Title of the new document
 #: ../geanylatex/src/geanylatex.c:1872
 msgid "Title:"
-msgstr ""
+msgstr "Атауы:"
 
 #: ../geanylatex/src/geanylatex.c:1875
 msgid "Sets the title of your new document."
@@ -2457,7 +2412,7 @@ msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:1967
 msgid "Replace special characters"
-msgstr ""
+msgstr "Арнайы таңбаларды алмастыру"
 
 #: ../geanylatex/src/geanylatex.c:1970
 msgid "Run insert environment dialog"
@@ -2516,9 +2471,8 @@ msgid "Insert \\usepackage{}"
 msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:2005
-#, fuzzy
 msgid "Insert BibTeX reference dialog"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:2012
 msgid ""
@@ -2565,9 +2519,8 @@ msgid "Helps to use some not very common letters and signs"
 msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:2160
-#, fuzzy
 msgid "Insert _Reference"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:2162
 msgid "Inserting references to the document"
@@ -2590,9 +2543,8 @@ msgid "Helps at inserting an environment a document"
 msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:2183
-#, fuzzy
 msgid "Insert P_ackage"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:2185
 msgid "A small dialog to insert \\usepackage{} into header of current file"
@@ -2600,7 +2552,7 @@ msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:2190 ../scope/data/scope.glade.h:58
 msgid "_Format"
-msgstr ""
+msgstr "Пі_шім"
 
 #. Add font size menu
 #: ../geanylatex/src/geanylatex.c:2207
@@ -2636,9 +2588,8 @@ msgid "_BibTeX"
 msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:2289
-#, fuzzy
 msgid "Insert B_ibTeX reference"
-msgstr "Наладкі"
+msgstr ""
 
 #: ../geanylatex/src/geanylatex.c:2291
 msgid "Helps to insert a reference out of BibTeX files"
@@ -2666,7 +2617,7 @@ msgstr ""
 
 #: ../geanylatex/src/letters.c:44
 msgid "Arrow characters"
-msgstr ""
+msgstr "Сызықша таңбалары"
 
 #: ../geanylatex/src/letters.c:45
 msgid "Relational"
@@ -2678,15 +2629,15 @@ msgstr ""
 
 #: ../geanylatex/src/formatpatterns.c:38
 msgid "Italic"
-msgstr ""
+msgstr "Көлбеу"
 
 #: ../geanylatex/src/formatpatterns.c:39
 msgid "Bold"
-msgstr ""
+msgstr "Жуан"
 
 #: ../geanylatex/src/formatpatterns.c:40
 msgid "Underline"
-msgstr ""
+msgstr "Асты сызылған"
 
 #: ../geanylatex/src/formatpatterns.c:41
 msgid "Typewriter"
@@ -2730,7 +2681,7 @@ msgstr ""
 
 #: ../geanylatex/src/formatpatterns.c:70
 msgid "Large"
-msgstr ""
+msgstr "Үлкен"
 
 #: ../geanylatex/src/formatpatterns.c:71
 msgid "LARGE"
@@ -2746,7 +2697,7 @@ msgstr ""
 
 #: ../geanylatex/src/latexencodings.c:37
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: ../geanylatex/src/latexencodings.c:38
 msgid "US-ASCII"
@@ -2927,27 +2878,27 @@ msgstr ""
 
 #: ../geanylua/gsdlg.c:107
 msgid "Select file"
-msgstr ""
+msgstr "Файлды таңдаңыз"
 
 #: ../geanylua/gsdlg.c:154
 msgid "Browse..."
-msgstr ""
+msgstr "Шолу..."
 
 #: ../geanylua/gsdlg.c:176
 msgid "Select Color"
-msgstr ""
+msgstr "Түсті таңдаңыз"
 
 #: ../geanylua/gsdlg.c:207
 msgid "Choose..."
-msgstr ""
+msgstr "Таңдау..."
 
 #: ../geanylua/gsdlg.c:228
 msgid "Select Font"
-msgstr ""
+msgstr "Қаріпті таңдау"
 
 #: ../geanylua/gsdlg.c:255
 msgid "Select..."
-msgstr ""
+msgstr "Таңдау..."
 
 #: ../geanylua/glspi_sci.c:426
 #, c-format
@@ -3002,9 +2953,8 @@ msgid "confirm"
 msgstr ""
 
 #: ../geanylua/glspi_dlg.c:410
-#, fuzzy
 msgid "Save file"
-msgstr "Выдаліць файл"
+msgstr ""
 
 #: ../geanylua/glspi_dlg.c:438
 #, c-format
@@ -3118,19 +3068,16 @@ msgid "Delete up to end of word to the Right"
 msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:67
-#, fuzzy
 msgid "Delete to beginning of line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:68
-#, fuzzy
 msgid "Delete to end of line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:69
-#, fuzzy
 msgid "Delete current line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:70
 msgid "Backwards Tab (deletes tab if nothing after it)"
@@ -3223,9 +3170,8 @@ msgid ""
 msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:95
-#, fuzzy
 msgid "Move Cursor to beginning of next paragraph"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:96
 msgid "Move Cursor up to beginning of current/previous paragraph"
@@ -3240,34 +3186,28 @@ msgid "Move Cursor to end of Word to the Right"
 msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:100
-#, fuzzy
 msgid "Extend Selection down a line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:101
-#, fuzzy
 msgid "Extend Selection up a line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:102
-#, fuzzy
 msgid "Extend Selection Left a line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:103
-#, fuzzy
 msgid "Extend Selection Right a line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:104
-#, fuzzy
 msgid "Extend Selection to start of Word to the Left"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:105
-#, fuzzy
 msgid "Extend Selection to start of Word to the Right"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:106
 msgid "Extend Selection to start of Part of Word to the Left"
@@ -3278,34 +3218,28 @@ msgid "Extend Selection to start of Part of Word to the Right"
 msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:108
-#, fuzzy
 msgid "Extend Selection to start of line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:109
-#, fuzzy
 msgid "Extend Selection to end of line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:110
-#, fuzzy
 msgid "Extend Selection to start of document"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:111
-#, fuzzy
 msgid "Extend Selection to end of document"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:112
-#, fuzzy
 msgid "Extend Selection up one Page"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:113
-#, fuzzy
 msgid "Extend Selection down one Page"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:114
 msgid "Extend Selection to fist visible character"
@@ -3322,53 +3256,44 @@ msgid ""
 msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:118
-#, fuzzy
 msgid "Extend Selection to beginning of next paragraph"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:119
 msgid "Extend Selection up to beginning of current/previous paragraph"
 msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:120
-#, fuzzy
 msgid "Extend Selection to end of Word to the Left"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:121
-#, fuzzy
 msgid "Extend Selection to end of Word to the Right"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:123
-#, fuzzy
 msgid "Extend Rectangular Selection down a line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:124
-#, fuzzy
 msgid "Extend Rectangular Selection up a line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:125
-#, fuzzy
 msgid "Extend Rectangular Selection Left a line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:126
-#, fuzzy
 msgid "Extend Rectangular Selection Right a line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:127
-#, fuzzy
 msgid "Extend Rectangular Selection to start of line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:128
-#, fuzzy
 msgid "Extend Rectangular Selection to end of line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:129
 msgid "Extend Rectangular Selection up one Page"
@@ -3394,11 +3319,11 @@ msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:137 ../pretty-printer/src/ConfigUI.c:239
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: ../geanymacro/src/geanymacro.c:138
 msgid "Newline"
-msgstr ""
+msgstr "Жаңа жол"
 
 #: ../geanymacro/src/geanymacro.c:140 ../geanymacro/src/geanymacro.c:1625
 #, c-format
@@ -3436,13 +3361,12 @@ msgid "Search for previous \"\""
 msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:152
-#, fuzzy
 msgid "Set start of search to beginning of selection"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:181
 msgid "Macros"
-msgstr ""
+msgstr "Макрос"
 
 #: ../geanymacro/src/geanymacro.c:181
 msgid "Macros for Geany"
@@ -3597,16 +3521,15 @@ msgstr ""
 #. create buttons
 #: ../geanymacro/src/geanymacro.c:1063
 msgid "Record"
-msgstr ""
+msgstr "Жазып алу"
 
 #: ../geanymacro/src/geanymacro.c:1071
 msgid "Macro Trigger:"
 msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:1085
-#, fuzzy
 msgid "Macro Name:"
-msgstr "Імя:"
+msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:1121
 #, c-format
@@ -3638,13 +3561,13 @@ msgstr ""
 #: ../geanymacro/src/geanymacro.c:1393 ../geanymacro/src/geanymacro.c:1536
 #: ../geanymacro/src/geanymacro.c:1826 ../geanymacro/src/geanymacro.c:2122
 msgid "_Ok"
-msgstr ""
+msgstr "_ОК"
 
 #: ../geanymacro/src/geanymacro.c:1394 ../geanymacro/src/geanymacro.c:1537
 #: ../geanymacro/src/geanymacro.c:1827
 #: ../projectorganizer/src/prjorg-sidebar.c:300
 msgid "_Cancel"
-msgstr ""
+msgstr "Ба_с тарту"
 
 #: ../geanymacro/src/geanymacro.c:1403
 msgid "Search Forwards"
@@ -3687,7 +3610,7 @@ msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:1544
 msgid "Text:"
-msgstr ""
+msgstr "Мәтін:"
 
 #: ../geanymacro/src/geanymacro.c:1570 ../geanymacro/src/geanymacro.c:1758
 #, c-format
@@ -3703,12 +3626,12 @@ msgstr ""
 #. add column
 #: ../geanymacro/src/geanymacro.c:1801
 msgid "Event"
-msgstr ""
+msgstr "Оқиға"
 
 #. add buttons
 #: ../geanymacro/src/geanymacro.c:1816
 msgid "Move _Up"
-msgstr ""
+msgstr "Ж_оғары апару"
 
 #: ../geanymacro/src/geanymacro.c:1818
 msgid "Move Do_wn"
@@ -3723,9 +3646,8 @@ msgid "New _Below"
 msgstr ""
 
 #: ../geanymacro/src/geanymacro.c:1824 ../geanymacro/src/geanymacro.c:2120
-#, fuzzy
 msgid "_Delete"
-msgstr "Выдаліць праэкт"
+msgstr "Ө_шіру"
 
 #. create dialog box
 #: ../geanymacro/src/geanymacro.c:2065
@@ -3830,14 +3752,12 @@ msgid "select the input of mini-script filter"
 msgstr ""
 
 #: ../geanyminiscript/src/gms_gui.c:507
-#, fuzzy
 msgid "selection"
-msgstr "Выдаліць праэкт"
+msgstr "таңдалған"
 
 #: ../geanyminiscript/src/gms_gui.c:508
-#, fuzzy
 msgid "document"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #: ../geanyminiscript/src/gms_gui.c:509
 msgid "session"
@@ -3858,9 +3778,8 @@ msgid "Current Doc."
 msgstr ""
 
 #: ../geanyminiscript/src/gms_gui.c:527
-#, fuzzy
 msgid "New Doc."
-msgstr "Новы Праэкт"
+msgstr ""
 
 #: ../geanyminiscript/src/gms_gui.c:748
 msgid "script configuration"
@@ -3909,7 +3828,7 @@ msgstr ""
 
 #: ../geanynumberedbookmarks/src/geanynumberedbookmarks.c:974
 msgid "_Ignore"
-msgstr ""
+msgstr "Еле_меу"
 
 #: ../geanynumberedbookmarks/src/geanynumberedbookmarks.c:1219
 msgid "remember fold state"
@@ -3920,9 +3839,8 @@ msgid "Center view when goto bookmark"
 msgstr ""
 
 #: ../geanynumberedbookmarks/src/geanynumberedbookmarks.c:1232
-#, fuzzy
 msgid "Move to start of line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanynumberedbookmarks/src/geanynumberedbookmarks.c:1233
 msgid "Move to remembered position in line"
@@ -3933,9 +3851,8 @@ msgid "Move to position in current line"
 msgstr ""
 
 #: ../geanynumberedbookmarks/src/geanynumberedbookmarks.c:1235
-#, fuzzy
 msgid "Move to End of line"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanynumberedbookmarks/src/geanynumberedbookmarks.c:1241
 msgid "Save file settings with program settings"
@@ -4014,11 +3931,11 @@ msgstr ""
 
 #: ../geanypg/src/geanypg.c:86
 msgid "Encrypt"
-msgstr ""
+msgstr "Шифрлеу"
 
 #: ../geanypg/src/geanypg.c:87
 msgid "Sign"
-msgstr ""
+msgstr "Қолтаңба"
 
 #: ../geanypg/src/geanypg.c:88
 msgid "Decrypt / Verify"
@@ -4037,18 +3954,16 @@ msgid "Sign the message as:"
 msgstr ""
 
 #: ../geanypg/src/key_selection_dialog.c:162
-#, fuzzy
 msgid "Select recipients"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geanypg/src/key_selection_dialog.c:224
 msgid "Choose a key to sign with:"
 msgstr ""
 
 #: ../geanypg/src/key_selection_dialog.c:232
-#, fuzzy
 msgid "Select signer"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #. shouldn't get here
 #: ../geanypg/src/pinentry.c:111
@@ -4066,7 +3981,7 @@ msgstr ""
 
 #: ../geanypg/src/pinentry.c:135
 msgid "Passphrase"
-msgstr ""
+msgstr "Кілттік фраза"
 
 #: ../geanypg/src/pinentry.c:140
 msgid "Enter passphrase for"
@@ -4093,7 +4008,7 @@ msgstr ""
 #: ../geanypg/src/verify_aux.c:66 ../spellcheck/src/gui.c:613
 #: ../spellcheck/src/gui.c:624
 msgid "unknown"
-msgstr ""
+msgstr "белгісіз"
 
 #: ../geanypg/src/verify_aux.c:67
 msgid "undefined"
@@ -4101,7 +4016,7 @@ msgstr ""
 
 #: ../geanypg/src/verify_aux.c:68
 msgid "never"
-msgstr ""
+msgstr "ешқашан"
 
 #: ../geanypg/src/verify_aux.c:69
 msgid "marginal"
@@ -4190,7 +4105,7 @@ msgstr ""
 
 #: ../geanypg/src/verify_aux.c:131 ../geanypg/src/verify_aux.c:132
 msgid "Unknown"
-msgstr ""
+msgstr "Белгісіз"
 
 #: ../geanypg/src/verify_aux.c:134
 msgid "n/a"
@@ -4198,7 +4113,7 @@ msgstr ""
 
 #: ../geanypg/src/verify_aux.c:134
 msgid "bad"
-msgstr ""
+msgstr "жаман"
 
 #: ../geanypg/src/verify_aux.c:134
 msgid "okay"
@@ -4218,11 +4133,11 @@ msgstr ""
 
 #: ../geanypg/src/verify_aux.c:136
 msgid "yes"
-msgstr ""
+msgstr "иә"
 
 #: ../geanypg/src/verify_aux.c:136
 msgid "no"
-msgstr ""
+msgstr "жоқ"
 
 #: ../geanypg/src/verify_aux.c:153
 msgid "Found a signature from"
@@ -4230,7 +4145,7 @@ msgstr ""
 
 #: ../geanypg/src/verify_aux.c:156
 msgid "Signature"
-msgstr ""
+msgstr "Қолтаңба"
 
 #: ../geanypg/src/verify_aux.c:179
 msgid "Could not find verification results"
@@ -4246,7 +4161,7 @@ msgstr ""
 
 #: ../geanyprj/src/geanyprj.c:38
 msgid "Alternative project support."
-msgstr "Альтэрнатыўная падтрымка праэкта"
+msgstr ""
 
 #: ../geanyprj/src/geanyprj.c:224
 msgid "Find a text in geanyprj's project"
@@ -4258,33 +4173,32 @@ msgstr ""
 
 #: ../geanyprj/src/menu.c:92
 msgid "Project Preferences"
-msgstr "Наладкі праэкта"
+msgstr ""
 
 #: ../geanyprj/src/menu.c:101 ../geanyprj/src/menu.c:377
 #: ../geanyprj/src/sidebar.c:172
 msgid "New Project"
-msgstr "Новы Праэкт"
+msgstr "Жаңа жоба"
 
 #: ../geanyprj/src/menu.c:110
 msgid "C_reate"
-msgstr "Стварыць"
+msgstr "Жаса_у"
 
 #: ../geanyprj/src/menu.c:123 ../scope/data/scope.glade.h:114
-#, fuzzy
 msgid "Name:"
-msgstr "Імя:"
+msgstr "Аты:"
 
 #: ../geanyprj/src/menu.c:132
 msgid "Location:"
-msgstr "Лакацыя:"
+msgstr "Орналасуы:"
 
 #: ../geanyprj/src/menu.c:147
 msgid "Choose Project Location"
-msgstr "Выбяры лакацыю праэкта"
+msgstr ""
 
 #: ../geanyprj/src/menu.c:155
 msgid "Base path:"
-msgstr "Базавы шлях:"
+msgstr "Негізгі жолы:"
 
 #: ../geanyprj/src/menu.c:160
 msgid ""
@@ -4292,80 +4206,71 @@ msgid ""
 "path, or an existing directory tree. You can use paths relative to the "
 "project filename."
 msgstr ""
-"Базавая тэчка да ўсіх файлаў складаючых праэкт. Можа быць новы або ўжо "
-"існуючы шлях. Вы можаце выкарыстоўваць шлях адносны шляха праектнага файла."
 
 #: ../geanyprj/src/menu.c:163
 msgid "Choose Project Base Path"
-msgstr "Выбяры базавы шлях праэкта"
+msgstr "Жобаның басты орналасу жолын көрсетіңіз"
 
 #: ../geanyprj/src/menu.c:170
 msgid "Generate file list on load"
-msgstr "Ствараць спіс файлаў пры загрузке"
+msgstr ""
 
 #: ../geanyprj/src/menu.c:172
-#, fuzzy
 msgid ""
 "Automatically add files that match project type on project load "
 "automatically. You can't manually add/remove files if you checked this "
 "option, since your modification will be lost on on next project load"
 msgstr ""
-"Аўтаматычна дадаваць падыходзячыя пад тып праэкту файлы. Вы не можаце "
-"дадаваць/выдаляць файлы з праекту, калі вы абралі гэту наладку таму, што "
-"вашы зьмяненьні будуць страчаны пры наступнай загрузке праэкта."
 
 #: ../geanyprj/src/menu.c:180
-#, fuzzy
 msgid "Type:"
-msgstr "Тып:"
+msgstr "Түрі:"
 
 #: ../geanyprj/src/menu.c:218
 #, c-format
 msgid "Project file \"%s\" already exists"
-msgstr "Файл праэкта \"%s\" ужо існуе"
+msgstr ""
 
 #: ../geanyprj/src/menu.c:368
 msgid "_Project"
-msgstr "Праэкт"
+msgstr "Жо_ба"
 
 #: ../geanyprj/src/menu.c:386 ../geanyprj/src/sidebar.c:181
 msgid "Delete Project"
-msgstr "Выдаліць праэкт"
+msgstr "Жобаны өшіру"
 
 #: ../geanyprj/src/menu.c:397 ../geanyprj/src/sidebar.c:194
-#, fuzzy
 msgid "Add File"
-msgstr "Дадаць файл"
+msgstr "Файлды қосу"
 
 #: ../geanyprj/src/menu.c:408 ../geanyprj/src/sidebar.c:216
 msgid "Preferences"
-msgstr "Наладкі"
+msgstr "Баптаулар"
 
 #: ../geanyprj/src/menu.c:419 ../geanyprj/src/sidebar.c:229
 msgid "Find in Project"
-msgstr "Знайсьці і праэкце"
+msgstr "Жобадан табу"
 
 #: ../geanyprj/src/sidebar.c:203
-#, fuzzy
 msgid "Remove File"
-msgstr "Выдаліць файл"
+msgstr "Файлды өшіру"
 
 #: ../geanyprj/src/sidebar.c:240 ../projectorganizer/src/prjorg-sidebar.c:1417
 msgid "H_ide Sidebar"
-msgstr "Схаваць сайдбар"
+msgstr "Бү_йір панелін жасыру"
 
 #: ../geanyprj/src/sidebar.c:456 ../projectorganizer/src/prjorg-sidebar.c:1439
 msgid "Project"
-msgstr "Праэкт"
+msgstr "Жоба"
 
 #: ../geanyprj/src/xproject.c:94
 #, c-format
 msgid "Project \"%s\" opened."
-msgstr "Праэкт \"%s\" адчынен."
+msgstr "\"%s\" жобасы ашылды."
 
 #: ../geanypy/src/geanypy-plugin.c:38
 msgid "GeanyPy"
-msgstr ""
+msgstr "GeanyPy"
 
 #: ../geanypy/src/geanypy-plugin.c:39
 msgid "Python plugins support"
@@ -4447,7 +4352,7 @@ msgstr ""
 
 #: ../geanysendmail/src/geanysendmail.c:190
 msgid "Mail"
-msgstr ""
+msgstr "Пошта"
 
 #: ../geanysendmail/src/geanysendmail.c:221
 msgid "Send by mail"
@@ -4560,11 +4465,11 @@ msgstr ""
 
 #: ../geanyvc/src/geanyvc.c:1253
 msgid "Status"
-msgstr ""
+msgstr "Күйі"
 
 #: ../geanyvc/src/geanyvc.c:1260
 msgid "Path"
-msgstr ""
+msgstr "Жолы"
 
 #: ../geanyvc/src/geanyvc.c:1324
 #, c-format
@@ -4707,7 +4612,7 @@ msgstr ""
 #: ../geanyvc/src/geanyvc.c:2078 ../geanyvc/src/geanyvc.c:2156
 #: ../geanyvc/src/geanyvc.c:2195
 msgid "_Revert"
-msgstr ""
+msgstr "Қай_тару"
 
 #: ../geanyvc/src/geanyvc.c:2081
 msgid "Restore pristine working copy file (undo local edits)."
@@ -4904,9 +4809,8 @@ msgid "The author name field is empty!"
 msgstr ""
 
 #: ../geniuspaste/src/geniuspaste.c:448
-#, fuzzy
 msgid "Select a pastebin:"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../geniuspaste/src/geniuspaste.c:451
 msgid "Enter the author name:"
@@ -4940,13 +4844,12 @@ msgid "_Changed lines:"
 msgstr ""
 
 #: ../git-changebar/data/prefs.ui.h:5
-#, fuzzy
 msgid "_Removed lines:"
-msgstr "Выдаліць файл"
+msgstr ""
 
 #: ../git-changebar/data/prefs.ui.h:6
 msgid "Colors"
-msgstr ""
+msgstr "Түстер"
 
 #: ../git-changebar/src/gcb-plugin.c:59
 msgid "Git Change Bar"
@@ -4989,14 +4892,12 @@ msgstr ""
 
 #. POSITION OF VIEW
 #: ../markdown/src/conf.c:567
-#, fuzzy
 msgid "Position:"
-msgstr "Лакацыя:"
+msgstr "Орны:"
 
 #: ../markdown/src/conf.c:573
-#, fuzzy
 msgid "Sidebar"
-msgstr "Схаваць сайдбар"
+msgstr "Бүйір панелі"
 
 #: ../markdown/src/conf.c:581
 msgid "Message Window"
@@ -5004,7 +4905,7 @@ msgstr ""
 
 #: ../markdown/src/conf.c:595
 msgid "Font:"
-msgstr ""
+msgstr "Қаріп:"
 
 #: ../markdown/src/conf.c:612
 msgid "Code Font:"
@@ -5019,9 +4920,8 @@ msgid "FG Color:"
 msgstr ""
 
 #: ../markdown/src/conf.c:663
-#, fuzzy
 msgid "Select Template File"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../markdown/src/plugin.c:35
 msgid "Real-time Markdown preview"
@@ -5035,78 +4935,71 @@ msgstr ""
 msgid "The current document does not have a Markdown filetype."
 msgstr ""
 
-#: ../multiterm/src/config.vala:47 ../multiterm/src/config.c:133
+#: ../multiterm/src/config.vala:47
 #, c-format
 msgid "Unable to save config file %s: %s"
 msgstr ""
 
 #: ../multiterm/src/config.vala:85 ../multiterm/src/config.vala:89
-#: ../multiterm/src/config.c:370 ../multiterm/src/config.c:387
 #, c-format
 msgid "Unable to load config file %s: %s"
 msgstr ""
 
 #: ../multiterm/src/context-menu.vala:52 ../multiterm/src/context-menu.vala:140
-#: ../multiterm/src/context-menu.c:134 ../multiterm/src/context-menu.c:546
-#, fuzzy
 msgid "Move to message window"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../multiterm/src/context-menu.vala:58 ../multiterm/src/context-menu.vala:135
-#: ../multiterm/src/context-menu.c:144 ../multiterm/src/context-menu.c:535
-#, fuzzy
 msgid "Move to sidebar"
-msgstr "Схаваць сайдбар"
+msgstr ""
 
-#: ../multiterm/src/context-menu.vala:81 ../multiterm/src/context-menu.c:385
+#: ../multiterm/src/context-menu.vala:81
 msgid "Open Tab"
-msgstr ""
+msgstr "Бетті ашу"
 
-#: ../multiterm/src/context-menu.vala:96 ../multiterm/src/context-menu.c:471
+#: ../multiterm/src/context-menu.vala:96
 msgid "Open Window"
-msgstr ""
+msgstr "Терезені ашу"
 
-#: ../multiterm/src/context-menu.vala:103 ../multiterm/src/context-menu.c:483
+#: ../multiterm/src/context-menu.vala:103
 msgid "Next tab"
-msgstr ""
+msgstr "Келесі бет"
 
 #. this.append(item);
 #. item.show();
-#: ../multiterm/src/context-menu.vala:108 ../multiterm/src/context-menu.c:490
-#, fuzzy
+#: ../multiterm/src/context-menu.vala:108
 msgid "Previous tab"
-msgstr "Знайсьці і праэкце"
+msgstr "Алдыңғы бет"
 
 #. this.append(image_item);
 #. image_item.show();
 #. add_separator();
-#: ../multiterm/src/context-menu.vala:127 ../multiterm/src/context-menu.c:509
+#: ../multiterm/src/context-menu.vala:127
 msgid "Show Tabs"
-msgstr ""
+msgstr "Беттерді көрсету"
 
-#: ../multiterm/src/notebook.vala:91 ../multiterm/src/notebook.c:236
+#: ../multiterm/src/notebook.vala:91
 #, c-format
 msgid "Unable to launch external terminal: %s"
 msgstr ""
 
-#: ../multiterm/src/notebook.vala:137 ../multiterm/src/notebook.c:421
+#: ../multiterm/src/notebook.vala:137
 msgid "Unable to locate default shell in configuration file"
 msgstr ""
 
-#: ../multiterm/src/notebook.vala:202 ../multiterm/src/notebook.c:646
+#: ../multiterm/src/notebook.vala:202
 msgid "New terminal"
-msgstr ""
+msgstr "Жаңа терминал"
 
 #: ../multiterm/src/plugin.vala:46 ../multiterm/src/plugin.vala:88
-#: ../multiterm/src/plugin.c:104 ../multiterm/src/plugin.c:276
 msgid "MultiTerm"
-msgstr ""
+msgstr "MultiTerm"
 
-#: ../multiterm/src/plugin.vala:47 ../multiterm/src/plugin.c:105
+#: ../multiterm/src/plugin.vala:47
 msgid "Multi-tabbed virtual terminal emulator."
 msgstr ""
 
-#: ../multiterm/src/plugin.vala:78 ../multiterm/src/plugin.c:242
+#: ../multiterm/src/plugin.vala:78
 #, c-format
 msgid "Unable to write default config file: %s"
 msgstr ""
@@ -5118,13 +5011,13 @@ msgstr ""
 
 #: ../multiterm/src/tab-label.vala:62 ../treebrowser/src/treebrowser.c:1963
 msgid "Terminal"
-msgstr ""
+msgstr "Терминал"
 
-#: ../multiterm/src/tab-label.vala:84 ../multiterm/src/tab-label.c:168
+#: ../multiterm/src/tab-label.vala:84
 msgid "Close terminal"
 msgstr ""
 
-#: ../multiterm/src/terminal.vala:88 ../multiterm/src/terminal.c:121
+#: ../multiterm/src/terminal.vala:88
 #, c-format
 msgid "Unable to run command: %s"
 msgstr ""
@@ -5170,7 +5063,7 @@ msgstr ""
 
 #: ../overview/data/prefs.ui.h:4
 msgid "Width:"
-msgstr ""
+msgstr "Ені:"
 
 #: ../overview/data/prefs.ui.h:5
 msgid ""
@@ -5182,9 +5075,8 @@ msgid "Scroll Lines:"
 msgstr ""
 
 #: ../overview/data/prefs.ui.h:7
-#, fuzzy
 msgid "Position on left"
-msgstr "Лакацыя:"
+msgstr ""
 
 #: ../overview/data/prefs.ui.h:8
 msgid ""
@@ -5224,7 +5116,7 @@ msgstr ""
 
 #: ../overview/data/prefs.ui.h:15 ../scope/data/scope.glade.h:109
 msgid "Options"
-msgstr ""
+msgstr "Опциялар"
 
 #: ../overview/data/prefs.ui.h:16
 msgid ""
@@ -5233,7 +5125,7 @@ msgstr ""
 
 #: ../overview/data/prefs.ui.h:17
 msgid "Color:"
-msgstr ""
+msgstr "Түс:"
 
 #: ../overview/data/prefs.ui.h:18
 msgid ""
@@ -5337,9 +5229,8 @@ msgid "Go to next untranslated or fuzzy string"
 msgstr ""
 
 #: ../pohelper/data/menus.ui.h:18 ../pohelper/src/gph-plugin.c:1539
-#, fuzzy
 msgid "Toggle current translation fuzziness"
-msgstr "Інтэрактыўная даведка"
+msgstr ""
 
 #: ../pohelper/data/menus.ui.h:19
 msgid "_Toggle Fuzziness"
@@ -5397,15 +5288,15 @@ msgstr ""
 
 #: ../pohelper/data/stats.ui.h:5
 msgid "Translated:"
-msgstr ""
+msgstr "Аударылған:"
 
 #: ../pohelper/data/stats.ui.h:6
 msgid "Fuzzy:"
-msgstr ""
+msgstr "Дәлсіз:"
 
 #: ../pohelper/data/stats.ui.h:7
 msgid "Untranslated:"
-msgstr ""
+msgstr "Аударылмаған:"
 
 #: ../pohelper/src/gph-plugin.c:41
 msgid "Translation Helper"
@@ -5418,22 +5309,22 @@ msgstr ""
 #: ../pohelper/src/gph-plugin.c:1305 ../pohelper/src/gph-plugin.c:1322
 #, c-format
 msgid "<b>Translated:</b> %.3g%%"
-msgstr ""
+msgstr "<b>Аударылған:</b> %.3g%%"
 
 #: ../pohelper/src/gph-plugin.c:1307 ../pohelper/src/gph-plugin.c:1325
 #, c-format
 msgid "<b>Fuzzy:</b> %.3g%%"
-msgstr ""
+msgstr "<b>Дәлсіз:</b> %.3g%%"
 
 #: ../pohelper/src/gph-plugin.c:1309 ../pohelper/src/gph-plugin.c:1327
 #, c-format
 msgid "<b>Untranslated:</b> %.3g%%"
-msgstr ""
+msgstr "<b>Аударылмаған:</b> %.3g%%"
 
 #: ../pohelper/src/gph-plugin.c:1407
 #, c-format
 msgid "%u (%.3g%%)"
-msgstr ""
+msgstr "%u (%.3g%%)"
 
 #: ../pohelper/src/gph-plugin.c:1532
 msgid "Paste original untranslated string to translation"
@@ -5477,7 +5368,7 @@ msgstr ""
 
 #: ../pretty-printer/src/ConfigUI.c:73
 msgid "Comments"
-msgstr ""
+msgstr "Түсіндірмелер"
 
 #: ../pretty-printer/src/ConfigUI.c:73 ../pretty-printer/src/ConfigUI.c:74
 #: ../pretty-printer/src/ConfigUI.c:75
@@ -5492,7 +5383,7 @@ msgstr ""
 #: ../pretty-printer/src/ConfigUI.c:73 ../pretty-printer/src/ConfigUI.c:74
 #: ../pretty-printer/src/ConfigUI.c:75
 msgid "Alignment"
-msgstr ""
+msgstr "Туралау"
 
 #: ../pretty-printer/src/ConfigUI.c:74
 msgid "Text nodes"
@@ -5500,7 +5391,7 @@ msgstr ""
 
 #: ../pretty-printer/src/ConfigUI.c:75
 msgid "CDATA"
-msgstr ""
+msgstr "CDATA"
 
 #: ../pretty-printer/src/ConfigUI.c:205
 msgid "Empty nodes"
@@ -5520,20 +5411,19 @@ msgstr ""
 
 #: ../pretty-printer/src/ConfigUI.c:235
 msgid "Indentation"
-msgstr ""
+msgstr "Шегіну"
 
 #: ../pretty-printer/src/ConfigUI.c:240
 msgid "Space"
-msgstr ""
+msgstr "Space"
 
 #: ../pretty-printer/src/ConfigUI.c:264
 msgid "Line break"
 msgstr ""
 
 #: ../projectorganizer/src/prjorg-main.c:41
-#, fuzzy
 msgid "Project Organizer"
-msgstr "Наладкі праэкта"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-main.c:42
 msgid ""
@@ -5542,34 +5432,28 @@ msgid ""
 msgstr ""
 
 #: ../projectorganizer/src/prjorg-menu.c:386
-#, fuzzy
 msgid "Find in Project Files..."
-msgstr "Знайсьці і праэкце"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-menu.c:392
-#, fuzzy
 msgid "Find in project files"
-msgstr "Знайсьці і праэкце"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-menu.c:396
-#, fuzzy
 msgid "Find Project File..."
-msgstr "Знайсьці і праэкце"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-menu.c:402
-#, fuzzy
 msgid "Find project file"
-msgstr "Знайсьці і праэкце"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-menu.c:406
-#, fuzzy
 msgid "Find Project Tag..."
-msgstr "Знайсьці і праэкце"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-menu.c:412
-#, fuzzy
 msgid "Find project tag"
-msgstr "Знайсьці і праэкце"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-menu.c:414
 msgid "Swap Header/Source"
@@ -5633,7 +5517,7 @@ msgstr ""
 
 #: ../projectorganizer/src/prjorg-project.c:638
 msgid "Yes"
-msgstr ""
+msgstr "Иә"
 
 #: ../projectorganizer/src/prjorg-project.c:639
 msgid "No"
@@ -5656,9 +5540,8 @@ msgid ""
 msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:117
-#, fuzzy
 msgid "Find File"
-msgstr "Дадаць файл"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:144
 #: ../projectorganizer/src/prjorg-sidebar.c:488
@@ -5671,18 +5554,16 @@ msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:170
 #: ../projectorganizer/src/prjorg-sidebar.c:652
-#, fuzzy
 msgid "project or external directory"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:298
-#, fuzzy
 msgid "Add External Directory"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:301
 msgid "Add"
-msgstr ""
+msgstr "Қосу"
 
 #: ../projectorganizer/src/prjorg-sidebar.c:477
 msgid "exact"
@@ -5705,9 +5586,8 @@ msgid "Reload all"
 msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:1283
-#, fuzzy
 msgid "Add external directory"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:1293
 #: ../treebrowser/src/treebrowser.c:1282
@@ -5731,24 +5611,20 @@ msgid "Expand All"
 msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:1375
-#, fuzzy
 msgid "Find in Files..."
-msgstr "Знайсьці і праэкце"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:1384
-#, fuzzy
 msgid "Find File..."
-msgstr "Дадаць файл"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:1393
-#, fuzzy
 msgid "Find Tag..."
-msgstr "Дадаць файл"
+msgstr ""
 
 #: ../projectorganizer/src/prjorg-sidebar.c:1406
-#, fuzzy
 msgid "Remove External Directory"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../scope/data/scope.glade.h:1
 msgid "Debu_g"
@@ -5795,13 +5671,12 @@ msgid "Toggle _Breakpoint"
 msgstr ""
 
 #: ../scope/data/scope.glade.h:12
-#, fuzzy
 msgid "_GDB Command"
-msgstr "Каманда 0:"
+msgstr ""
 
 #: ../scope/data/scope.glade.h:13
 msgid "_More"
-msgstr ""
+msgstr "_Көбірек"
 
 #: ../scope/data/scope.glade.h:14
 msgid "_Show Terminal"
@@ -5821,7 +5696,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:18
 msgid "_Window"
-msgstr ""
+msgstr "_Терезе"
 
 #: ../scope/data/scope.glade.h:19
 msgid "_Auto Show"
@@ -5841,7 +5716,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:23
 msgid "_View Source"
-msgstr ""
+msgstr "Бастапқы кодын қ_арау"
 
 #: ../scope/data/scope.glade.h:24
 msgid "S_ynchronize"
@@ -5856,9 +5731,8 @@ msgid "_Send Signal"
 msgstr ""
 
 #: ../scope/data/scope.glade.h:27
-#, fuzzy
 msgid "S_elect on"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../scope/data/scope.glade.h:28
 msgid "_Running"
@@ -5918,7 +5792,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:42
 msgid "_Inspect"
-msgstr ""
+msgstr "_Бақылау"
 
 #: ../scope/data/scope.glade.h:43
 msgid "_8-bit mode"
@@ -5926,7 +5800,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:44
 msgid "_Default"
-msgstr ""
+msgstr "_Негізгі"
 
 #: ../scope/data/scope.glade.h:45
 msgid "_7 bit"
@@ -5954,19 +5828,19 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:51
 msgid "_1"
-msgstr ""
+msgstr "_1"
 
 #: ../scope/data/scope.glade.h:52
 msgid "_2"
-msgstr ""
+msgstr "_2"
 
 #: ../scope/data/scope.glade.h:53
 msgid "_4"
-msgstr ""
+msgstr "_4"
 
 #: ../scope/data/scope.glade.h:54
 msgid "_8"
-msgstr ""
+msgstr "_8"
 
 #: ../scope/data/scope.glade.h:55
 msgid "_Jump To"
@@ -5974,7 +5848,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:56
 msgid "_Apply"
-msgstr ""
+msgstr "Іске _асыру"
 
 #: ../scope/data/scope.glade.h:57
 msgid "_Expand"
@@ -6013,9 +5887,8 @@ msgid "_Watch Expression"
 msgstr ""
 
 #: ../scope/data/scope.glade.h:67
-#, fuzzy
 msgid "_Inspect Variable"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../scope/data/scope.glade.h:68
 msgid "Threads"
@@ -6035,7 +5908,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:72
 msgid "Memory"
-msgstr ""
+msgstr "Жады"
 
 #: ../scope/data/scope.glade.h:73
 msgid "Enter gdb command:"
@@ -6099,7 +5972,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:88 ../scope/src/scope.c:518
 msgid "Program"
-msgstr ""
+msgstr "Бағдарлама"
 
 #: ../scope/data/scope.glade.h:89
 msgid "Open on"
@@ -6131,7 +6004,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:96
 msgid "Display"
-msgstr ""
+msgstr "Display"
 
 #: ../scope/data/scope.glade.h:97
 msgid "_member"
@@ -6183,7 +6056,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:110
 msgid "_Import"
-msgstr ""
+msgstr "И_мпорттау"
 
 #: ../scope/data/scope.glade.h:111
 msgid "Enter assignment expression:"
@@ -6199,16 +6072,15 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:115
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: ../scope/data/scope.glade.h:116
-#, fuzzy
 msgid "Frame:"
-msgstr "Імя:"
+msgstr ""
 
 #: ../scope/data/scope.glade.h:117
 msgid "@"
-msgstr ""
+msgstr "@"
 
 #: ../scope/data/scope.glade.h:118
 msgid "_Apply on run"
@@ -6216,7 +6088,7 @@ msgstr ""
 
 #: ../scope/data/scope.glade.h:119
 msgid "Expand"
-msgstr ""
+msgstr "Жазық қылу"
 
 #: ../scope/data/scope.glade.h:120
 msgid "Start:"
@@ -6341,11 +6213,11 @@ msgstr ""
 #: ../scope/src/debug.c:461 ../scope/src/debug.c:545 ../scope/src/thread.c:93
 #, c-format
 msgid "%s."
-msgstr ""
+msgstr "%s."
 
 #: ../scope/src/inspect.c:66
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: ../scope/src/inspect.c:339
 msgid "invalid data"
@@ -6385,23 +6257,20 @@ msgid "Watch expression"
 msgstr ""
 
 #: ../scope/src/menu.c:483
-#, fuzzy
 msgid "Inspect variable"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../scope/src/parse.c:438
 msgid "Undefined GDB error."
 msgstr ""
 
 #: ../scope/src/plugme.c:79
-#, fuzzy
 msgid "Select Folder"
-msgstr "Выдаліць праэкт"
+msgstr "Буманы таңдау"
 
 #: ../scope/src/plugme.c:79
-#, fuzzy
 msgid "Select File"
-msgstr "Выдаліць праэкт"
+msgstr "Файлды таңдау"
 
 #: ../scope/src/prefs.c:314 ../scope/src/utils.c:449
 #, c-format
@@ -6480,11 +6349,11 @@ msgstr ""
 
 #: ../scope/src/scope.c:225
 msgid "Busy"
-msgstr ""
+msgstr "Бос емес"
 
 #: ../scope/src/scope.c:225
 msgid "Ready"
-msgstr ""
+msgstr "Дайын"
 
 #: ../scope/src/scope.c:226
 msgid "Hang"
@@ -6508,7 +6377,7 @@ msgstr ""
 
 #: ../scope/src/scope.c:522
 msgid "Console"
-msgstr ""
+msgstr "Консоль"
 
 #: ../scope/src/scope.c:522
 msgid "Debug Console"
@@ -6550,11 +6419,11 @@ msgstr ""
 
 #: ../scope/src/thread.c:892
 msgid "Running"
-msgstr ""
+msgstr "Орындалуда"
 
 #: ../scope/src/thread.c:893
 msgid "Stopped"
-msgstr ""
+msgstr "Тоқтатылған"
 
 #: ../scope/src/utils.c:37
 #, c-format
@@ -6577,21 +6446,19 @@ msgstr ""
 
 #: ../scope/src/views.c:549
 msgid "_Send"
-msgstr ""
+msgstr "_Жіберу"
 
 #: ../scope/src/views.c:549
 msgid "_Busy"
 msgstr ""
 
 #: ../scope/src/views.c:558
-#, fuzzy
 msgid "GDB Command"
-msgstr "Каманда 0:"
+msgstr ""
 
 #: ../spellcheck/src/speller.c:180
-#, fuzzy
 msgid "Try: "
-msgstr "Тып:"
+msgstr ""
 
 #: ../spellcheck/src/speller.c:252
 msgid "Checking"
@@ -6626,7 +6493,7 @@ msgstr ""
 
 #: ../spellcheck/src/scplugin.c:48
 msgid "Checks the spelling of the current document."
-msgstr ""
+msgstr "Ағымдағы құжаттың емлесін тексереді."
 
 #: ../spellcheck/src/scplugin.c:218
 msgid "Run Spell Check"
@@ -6638,9 +6505,8 @@ msgstr ""
 
 #. initialise the dialog
 #: ../spellcheck/src/scplugin.c:232
-#, fuzzy
 msgid "Select Directory"
-msgstr "Выдаліць праэкт"
+msgstr "Буманы таңдау"
 
 #: ../spellcheck/src/scplugin.c:284
 msgid "Show toolbar item to toggle spell checking"
@@ -6704,7 +6570,7 @@ msgstr ""
 
 #: ../spellcheck/src/gui.c:326
 msgid "More..."
-msgstr ""
+msgstr "Қосымша..."
 
 #: ../spellcheck/src/gui.c:347
 msgid "(No Suggestions)"
@@ -6717,7 +6583,7 @@ msgstr ""
 
 #: ../spellcheck/src/gui.c:368
 msgid "Ignore All"
-msgstr ""
+msgstr "Барлығын елемеу"
 
 #: ../spellcheck/src/gui.c:445
 msgid ""
@@ -6769,22 +6635,22 @@ msgstr ""
 
 #: ../tableconvert/src/tableconvert.c:42
 msgid "LaTeX"
-msgstr ""
+msgstr "LaTeX"
 
 #: ../tableconvert/src/tableconvert.c:59
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: ../tableconvert/src/tableconvert.c:79
 msgid "SQL"
-msgstr ""
+msgstr "SQL"
 
 #: ../tableconvert/src/tableconvert.c:96
 msgid "DokuWiki"
 msgstr ""
 
 #. OK. Something went not as expected.
-#. * We did have a selection but cannot parse it into rows.
+#. * We do have a selection but cannot parse it into rows.
 #. * Aborting
 #: ../tableconvert/src/tableconvert.c:297
 msgid "Something went wrong on parsing selection. Aborting"
@@ -6828,22 +6694,20 @@ msgstr ""
 #: ../treebrowser/src/treebrowser.c:536 ../treebrowser/src/treebrowser.c:571
 #: ../treebrowser/src/treebrowser.c:669
 msgid "(Empty)"
-msgstr ""
+msgstr "(Бос)"
 
 #: ../treebrowser/src/treebrowser.c:972
 #, c-format
 msgid "Could not execute configured external command '%s' (%s)."
-msgstr ""
+msgstr "Бапталған '%s' сыртқы командасын орындау мүмкін емес (%s)."
 
 #: ../treebrowser/src/treebrowser.c:1043
-#, fuzzy
 msgid "NewDirectory"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1045
-#, fuzzy
 msgid "NewFile"
-msgstr "Дадаць файл"
+msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1050
 #, c-format
@@ -6863,7 +6727,7 @@ msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1212 ../treebrowser/src/treebrowser.c:1754
 msgid "Set path from document"
-msgstr ""
+msgstr "Орналасу жолын құжаттан орнату"
 
 #: ../treebrowser/src/treebrowser.c:1216
 msgid "_Open externally"
@@ -6880,17 +6744,15 @@ msgstr ""
 #: ../treebrowser/src/treebrowser.c:1230 ../treebrowser/src/treebrowser.c:1744
 #: ../treebrowser/src/treebrowser.c:2139
 msgid "Refresh"
-msgstr ""
+msgstr "Жаңарту"
 
 #: ../treebrowser/src/treebrowser.c:1234
-#, fuzzy
 msgid "_Find in Files"
-msgstr "Знайсьці і праэкце"
+msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1242
-#, fuzzy
 msgid "Create new directory"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1246
 msgid "Create new file"
@@ -6898,12 +6760,11 @@ msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1250
 msgid "Rename"
-msgstr ""
+msgstr "Атын өзгерту"
 
 #: ../treebrowser/src/treebrowser.c:1255
-#, fuzzy
 msgid "Delete"
-msgstr "Выдаліць праэкт"
+msgstr "Өшіру"
 
 #: ../treebrowser/src/treebrowser.c:1263
 #, c-format
@@ -6929,7 +6790,7 @@ msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1298 ../treebrowser/src/treebrowser.c:1997
 msgid "Show hidden files"
-msgstr ""
+msgstr "Жасырын файлдарды көрсету"
 
 #: ../treebrowser/src/treebrowser.c:1303
 msgid "Show toolbars"
@@ -6942,17 +6803,15 @@ msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1749
 msgid "Home"
-msgstr ""
+msgstr "Үй"
 
 #: ../treebrowser/src/treebrowser.c:1759
-#, fuzzy
 msgid "Track path"
-msgstr "Базавы шлях:"
+msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1764
-#, fuzzy
 msgid "Hide bars"
-msgstr "Схаваць сайдбар"
+msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1774
 msgid ""
@@ -6981,6 +6840,11 @@ msgid ""
 "%d will be replaced with the path name of the selected file without the "
 "filename"
 msgstr ""
+"\"Көмегімен ашу\" кезінде қолданылатын команда. Сіз %f және %d үлгілерін "
+"қолдана аласыз.\n"
+"%f файл атымен, толық орналасу жолымен қоса, алмастырылады\n"
+"%d таңдалған файлдың толық орналасу жолымен, сол файлдың атауына дейін, "
+"алмастырылады"
 
 #: ../treebrowser/src/treebrowser.c:1968
 msgid "The terminal to use with the command \"Open Terminal\""
@@ -6988,19 +6852,19 @@ msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1974
 msgid "Toolbar"
-msgstr ""
+msgstr "Саймандар панелі"
 
 #: ../treebrowser/src/treebrowser.c:1976
 msgid "Hidden"
-msgstr ""
+msgstr "Жасырын"
 
 #: ../treebrowser/src/treebrowser.c:1977
 msgid "Top"
-msgstr ""
+msgstr "Жоғарыдан"
 
 #: ../treebrowser/src/treebrowser.c:1978
 msgid "Bottom"
-msgstr ""
+msgstr "Төменнен"
 
 #: ../treebrowser/src/treebrowser.c:1983
 msgid "If position is changed, the option require plugin restart."
@@ -7012,12 +6876,11 @@ msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1989
 msgid "None"
-msgstr ""
+msgstr "Ешнәрсе"
 
 #: ../treebrowser/src/treebrowser.c:1990
-#, fuzzy
 msgid "Base"
-msgstr "Базавы шлях:"
+msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:1991
 msgid "Content-type"
@@ -7038,9 +6901,8 @@ msgid ""
 msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:2011
-#, fuzzy
 msgid "Reverse filter"
-msgstr "Выдаліць файл"
+msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:2016
 msgid "Follow current document"
@@ -7072,25 +6934,23 @@ msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:2129
 msgid "Focus File List"
-msgstr ""
+msgstr "Файлдар тізіміне фокусты орнату"
 
 #: ../treebrowser/src/treebrowser.c:2131
 msgid "Focus Path Entry"
-msgstr ""
+msgstr "Жол өрісіне фокусты орнату"
 
 #: ../treebrowser/src/treebrowser.c:2133
 msgid "Rename Object"
 msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:2135
-#, fuzzy
 msgid "Create New File"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../treebrowser/src/treebrowser.c:2137
-#, fuzzy
 msgid "Create New Directory"
-msgstr "Выдаліць праэкт"
+msgstr ""
 
 #: ../updatechecker/src/updatechecker.c:41
 msgid "Updatechecker"
@@ -7124,16 +6984,15 @@ msgstr ""
 
 #: ../updatechecker/src/updatechecker.c:333
 msgid "Check for Updates"
-msgstr ""
+msgstr "Жаңартуларға тексеру"
 
 #: ../webhelper/src/gwh-enum-types.c:15
 msgid "message-window"
 msgstr ""
 
 #: ../webhelper/src/gwh-enum-types.c:16
-#, fuzzy
 msgid "sidebar"
-msgstr "Схаваць сайдбар"
+msgstr ""
 
 #: ../webhelper/src/gwh-enum-types.c:17
 msgid "separate-window"
@@ -7141,7 +7000,7 @@ msgstr ""
 
 #: ../webhelper/src/gwh-enum-types.c:32
 msgid "none"
-msgstr ""
+msgstr "ешнәрсе"
 
 #: ../webhelper/src/gwh-enum-types.c:33
 msgid "on-connexion"
@@ -7149,7 +7008,7 @@ msgstr ""
 
 #: ../webhelper/src/gwh-enum-types.c:48
 msgid "normal"
-msgstr ""
+msgstr "қалыпты"
 
 #: ../webhelper/src/gwh-enum-types.c:49
 msgid "utility"
@@ -7158,7 +7017,7 @@ msgstr ""
 #: ../webhelper/src/gwh-settings.c:804
 #, c-format
 msgid "%s:"
-msgstr ""
+msgstr "%s:"
 
 #: ../webhelper/src/gwh-browser.c:474
 msgid "Bookmark this website"
@@ -7166,7 +7025,7 @@ msgstr ""
 
 #: ../webhelper/src/gwh-browser.c:645
 msgid "_Zoom"
-msgstr ""
+msgstr "_Масштаб"
 
 #: ../webhelper/src/gwh-browser.c:667
 msgid "Full-_content zoom"
@@ -7178,11 +7037,11 @@ msgstr ""
 
 #: ../webhelper/src/gwh-browser.c:950
 msgid "Back"
-msgstr ""
+msgstr "Артқа"
 
 #: ../webhelper/src/gwh-browser.c:954
 msgid "Forward"
-msgstr ""
+msgstr "Forward"
 
 #: ../webhelper/src/gwh-browser.c:958
 msgid "Cancel loading"
@@ -7333,7 +7192,7 @@ msgstr ""
 #. Windows
 #: ../webhelper/src/gwh-plugin.c:542
 msgid "Windows"
-msgstr ""
+msgstr "Терезелер"
 
 #: ../xmlsnippets/src/plugin.c:45
 msgid "XML Snippets"
@@ -7342,27 +7201,3 @@ msgstr ""
 #: ../xmlsnippets/src/plugin.c:46
 msgid "Autocompletes XML/HTML tags using snippets."
 msgstr ""
-
-#, fuzzy
-#~ msgid "GProject"
-#~ msgstr "Праэкт"
-
-#~ msgid "Yura Siamshka <yurand2@gmail.com>"
-#~ msgstr "Юра Сямашка <yurand2@gmail.com>"
-
-#, fuzzy
-#~ msgid ""
-#~ "Yura Siamashka <yurand2@gmail.com>,\n"
-#~ "Frank Lanitz <frank@frank.uvena.de>"
-#~ msgstr "Юра Сямашка <yurand2@gmail.com>"
-
-#, fuzzy
-#~ msgid "Yura Siamashka <yurand2@gmail.com>"
-#~ msgstr "Юра Сямашка <yurand2@gmail.com>"
-
-#, fuzzy
-#~ msgid "Conference"
-#~ msgstr "Наладкі"
-
-#~ msgid "Project \"%s\" closed."
-#~ msgstr "Праэкт \"%s\" зачынен."

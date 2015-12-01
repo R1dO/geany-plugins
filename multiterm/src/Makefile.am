@@ -24,8 +24,10 @@ multiterm_la_SOURCES = \
 	terminal.vala
 
 multiterm_la_CFLAGS = \
+	-DGETTEXT_PACKAGE='"$(GETTEXT_PACKAGE)"' \
 	$(AM_CFLAGS) \
 	$(MULTITERM_CFLAGS)
 
 multiterm_la_LIBADD = \
+	$(COMMONLIBS) \
 	$(MULTITERM_LIBS)
