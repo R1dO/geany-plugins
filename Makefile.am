@@ -107,6 +107,10 @@ if ENABLE_GITCHANGEBAR
 SUBDIRS += git-changebar
 endif
 
+if ENABLE_LINEOPERATIONS
+SUBDIRS += lineoperations
+endif
+
 if ENABLE_MARKDOWN
 SUBDIRS += markdown
 endif
@@ -166,13 +170,3 @@ endif
 if ENABLE_XMLSNIPPETS
 SUBDIRS += xmlsnippets
 endif
-
-
-EXTRA_DIST = \
-	build/__init__.py \
-	build/wafcache.py \
-	build/wafutils.py \
-	waf \
-	wscript \
-	README.waf \
-	README.windows

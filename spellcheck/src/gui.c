@@ -26,7 +26,7 @@
 # include "config.h"
 #endif
 
-#include "geanyplugin.h"
+#include <geanyplugin.h>
 
 #include <ctype.h>
 #include <string.h>
@@ -156,8 +156,7 @@ static void menu_suggestion_item_activate_cb(GtkMenuItem *menuitem, gpointer gda
 		sci_set_selection_end(sci, endword);
 
 		/* retrieve the old text */
-		word = g_malloc(sci_get_selected_text_length(sci) + 1);
-		sci_get_selected_text(sci, word);
+		word = sci_get_selection_contents(sci);
 
 		/* retrieve the new text */
 		sugg = gtk_label_get_text(GTK_LABEL(gtk_bin_get_child(GTK_BIN(menuitem))));
@@ -180,8 +179,8 @@ static void menu_addword_item_activate_cb(GtkMenuItem *menuitem, gpointer gdata)
 {
 	gint startword, endword, i, doc_len;
 	ScintillaObject *sci;
-	GString *str;
 	gboolean ignore = GPOINTER_TO_INT(gdata);
+	gint click_word_len;
 
 	if (clickinfo.doc == NULL || clickinfo.word == NULL || clickinfo.pos == -1)
 		return;
@@ -196,7 +195,7 @@ static void menu_addword_item_activate_cb(GtkMenuItem *menuitem, gpointer gdata)
 
 	/* Remove all indicators on the added/ignored word */
 	sci = clickinfo.doc->editor->sci;
-	str = g_string_sized_new(256);
+	click_word_len = (gint) strlen(clickinfo.word);
 	doc_len = sci_get_length(sci);
 	for (i = 0; i < doc_len; i++)
 	{
@@ -207,17 +206,18 @@ static void menu_addword_item_activate_cb(GtkMenuItem *menuitem, gpointer gdata)
 			if (startword == endword)
 				continue;
 
-			if (str->len < (guint)(endword - startword + 1))
-				str = g_string_set_size(str, endword - startword + 1);
-			sci_get_text_range(sci, startword, endword, str->str);
+			if (click_word_len == endword - startword)
+			{
+				const gchar *ptr = (const gchar *) scintilla_send_message(sci,
+					SCI_GETRANGEPOINTER, startword, endword - startword);
 
-			if (strcmp(str->str, clickinfo.word) == 0)
-				sci_indicator_clear(sci, startword, endword - startword);
+				if (strncmp(ptr, clickinfo.word, click_word_len) == 0)
+					sci_indicator_clear(sci, startword, endword - startword);
+			}
 
 			i = endword;
 		}
 	}
-	g_string_free(str, TRUE);
 }
 
 
@@ -420,11 +420,7 @@ void sc_gui_update_editor_menu_cb(GObject *obj, const gchar *word, gint pos,
 
 	/* if we have a selection, prefer it over the current word */
 	if (sci_has_selection(doc->editor->sci))
-	{
-		gint len = sci_get_selected_text_length(doc->editor->sci);
-		search_word = g_malloc(len + 1);
-		sci_get_selected_text(doc->editor->sci, search_word);
-	}
+		search_word = sci_get_selection_contents(doc->editor->sci);
 	else
 		search_word = g_strdup(word);
 
@@ -502,21 +498,19 @@ static gboolean check_lines(gpointer data)
 	/* since we're in an timeout callback, the document may have been closed */
 	if (DOC_VALID (doc))
 	{
-		gchar *line;
 		gint line_number = check_line_data.line_number;
 		gint line_count = check_line_data.line_count;
 		gint i;
 
 		for (i = 0; i < line_count; i++)
 		{
-			line = sci_get_line(doc->editor->sci, line_number);
 			indicator_clear_on_line(doc, line_number);
-			if (sc_speller_process_line(doc, line_number, line) != 0)
+			if (sc_speller_process_line(doc, line_number) != 0)
 			{
 				if (sc_info->use_msgwin)
 					msgwin_switch_tab(MSG_MESSAGE, FALSE);
 			}
-			g_free(line);
+			line_number++;
 		}
 	}
 	check_line_data.check_while_typing_idle_source_id = 0;
@@ -530,6 +524,8 @@ static gboolean need_delay(void)
 	gint64 time_now;
 	GTimeVal t;
 	const gint timeout = 500; /* delay in milliseconds */
+	gboolean ret = FALSE;
+
 	g_get_current_time(&t);
 
 	time_now = ((gint64) t.tv_sec * G_USEC_PER_SEC) + t.tv_usec;
@@ -542,12 +538,13 @@ static gboolean need_delay(void)
 	{
 		check_line_data.check_while_typing_idle_source_id =
 			plugin_timeout_add(geany_plugin, timeout, check_lines, NULL);
+		ret = TRUE;
 	}
 
 	/* set current time for the next key press */
 	time_prev = time_now;
 
-	return FALSE;
+	return ret;
 }
 
 
@@ -557,15 +554,15 @@ static void check_on_text_changed(GeanyDocument *doc, gint position, gint lines_
 	gint line_count;
 
 	/* Iterating over all lines which changed as indicated by lines_added. lines_added is 0
-	 * if only a lines has changed, in this case set it to 1. Otherwise, iterating over all
+	 * if only one line has changed, in this case set line_count to 1. Otherwise, iterating over all
 	 * new lines makes spell checking work for pasted text. */
 	line_count = MAX(1, lines_added);
 
 	line_number = sci_get_line_from_position(doc->editor->sci, position);
 	/* TODO: storing these information in the global check_line_data struct isn't that good.
-	 * The data gets overwritten when a new line is inserted and so there is a chance that thep
+	 * The data gets overwritten when a new line is inserted and so there is a chance that the
 	 * previous line is not checked to the end. One solution could be to simple maintain a list
-	 * of line numbers which needs to be checked and do this is the timeout handler. */
+	 * of line numbers which needs to be checked and do this in the timeout handler. */
 	check_line_data.doc = doc;
 	check_line_data.line_number = line_number;
 	check_line_data.line_count = line_count;

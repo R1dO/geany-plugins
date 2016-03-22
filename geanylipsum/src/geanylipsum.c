@@ -31,9 +31,8 @@
 
 GeanyPlugin		*geany_plugin;
 GeanyData		*geany_data;
-GeanyFunctions	*geany_functions;
 
-PLUGIN_VERSION_CHECK(188)
+PLUGIN_VERSION_CHECK(224)
 PLUGIN_SET_TRANSLATABLE_INFO(
 	LOCALEDIR,
 	GETTEXT_PACKAGE,
@@ -146,8 +145,6 @@ plugin_init(G_GNUC_UNUSED GeanyData *data)
 	GKeyFile *config = g_key_file_new();
 	gchar *config_file = NULL;
 	GeanyKeyGroup *key_group;
-
-	main_locale_init(LOCALEDIR, GETTEXT_PACKAGE);
 
 	config_file = g_strconcat(geany->app->configdir,
 		G_DIR_SEPARATOR_S, "plugins", G_DIR_SEPARATOR_S,

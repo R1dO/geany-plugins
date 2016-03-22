@@ -174,12 +174,12 @@ enum GEANY_MACRO_BUTTON {
 
 GeanyPlugin     *geany_plugin;
 GeanyData       *geany_data;
-GeanyFunctions  *geany_functions;
 
-PLUGIN_VERSION_CHECK(147)
+PLUGIN_VERSION_CHECK(224)
 
-PLUGIN_SET_INFO(_("Macros"),_("Macros for Geany"),
-                "1.1","William Fraser <william.fraser@virgin.net>")
+PLUGIN_SET_TRANSLATABLE_INFO(LOCALEDIR, GETTEXT_PACKAGE,
+                             _("Macros"),_("Macros for Geany"),
+                             "1.1","William Fraser <william.fraser@virgin.net>")
 
 /* Plugin user alterable settings */
 static gboolean bSaveMacros=TRUE;

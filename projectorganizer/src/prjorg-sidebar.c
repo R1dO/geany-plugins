@@ -32,7 +32,6 @@
 
 extern GeanyPlugin *geany_plugin;
 extern GeanyData *geany_data;
-extern GeanyFunctions *geany_functions;
 
 enum
 {
@@ -440,7 +439,7 @@ static void create_dialog_find_tag(void)
 		return;
 
 	s_ft_dialog.widget = gtk_dialog_new_with_buttons(
-		_("Find Tag"), GTK_WINDOW(geany->main_widgets->window),
+		_("Find Symbol"), GTK_WINDOW(geany->main_widgets->window),
 		GTK_DIALOG_DESTROY_WITH_PARENT,
 		GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL, NULL);
 	gtk_dialog_add_button(GTK_DIALOG(s_ft_dialog.widget), "gtk-find", GTK_RESPONSE_ACCEPT);
@@ -618,9 +617,8 @@ static void find_tags(const gchar *name, gboolean declaration, gboolean case_sen
 			gchar *relpath;
 
 			relpath = get_relative_path(utf8_base_path, utf8_fname);
-			if (relpath)
-				msgwin_msg_add(COLOR_BLACK, -1, NULL, "%s:%lu:\n\t[%s]\t %s%s%s", relpath,
-					tag->line, tm_tag_type_name(tag), scopestr, tag->name, tag->arglist ? tag->arglist : "");
+			msgwin_msg_add(COLOR_BLACK, -1, NULL, "%s:%lu:\n\t[%s]\t %s%s%s", relpath ? relpath : utf8_fname,
+				tag->line, tm_tag_type_name(tag), scopestr, tag->name, tag->arglist ? tag->arglist : "");
 			g_free(scopestr);
 			g_free(relpath);
 			g_free(utf8_fname);
@@ -1271,7 +1269,7 @@ void prjorg_sidebar_init(void)
 
 	item = GTK_WIDGET(gtk_tool_button_new(NULL, NULL));
 	gtk_tool_button_set_icon_name (GTK_TOOL_BUTTON(item), "prjorg-refresh");
-	ui_widget_set_tooltip_text(item, _("Reload all"));
+	gtk_widget_set_tooltip_text(item, _("Reload all"));
 	g_signal_connect(item, "clicked", G_CALLBACK(on_reload_project), NULL);
 	gtk_container_add(GTK_CONTAINER(s_toolbar), item);
 
@@ -1280,7 +1278,7 @@ void prjorg_sidebar_init(void)
 
 	item = GTK_WIDGET(gtk_tool_button_new(NULL, NULL));
 	gtk_tool_button_set_icon_name (GTK_TOOL_BUTTON(item), "prjorg-add-external");
-	ui_widget_set_tooltip_text(item, _("Add external directory"));
+	gtk_widget_set_tooltip_text(item, _("Add external directory"));
 	g_signal_connect(item, "clicked", G_CALLBACK(on_add_external), NULL);
 	gtk_container_add(GTK_CONTAINER(s_toolbar), item);
 	s_project_toolbar.add = item;
@@ -1290,14 +1288,14 @@ void prjorg_sidebar_init(void)
 
 	item = GTK_WIDGET(gtk_tool_button_new(NULL, NULL));
 	gtk_tool_button_set_icon_name (GTK_TOOL_BUTTON(item), "prjorg-expand");
-	ui_widget_set_tooltip_text(item, _("Expand all"));
+	gtk_widget_set_tooltip_text(item, _("Expand all"));
 	g_signal_connect(item, "clicked", G_CALLBACK(on_expand_all), NULL);
 	gtk_container_add(GTK_CONTAINER(s_toolbar), item);
 	s_project_toolbar.expand = item;
 
 	item = GTK_WIDGET(gtk_tool_button_new(NULL, NULL));
 	gtk_tool_button_set_icon_name (GTK_TOOL_BUTTON(item), "prjorg-collapse");
-	ui_widget_set_tooltip_text(item, _("Collapse to project root"));
+	gtk_widget_set_tooltip_text(item, _("Collapse to project root"));
 	g_signal_connect(item, "clicked", G_CALLBACK(on_collapse_all), NULL);
 	gtk_container_add(GTK_CONTAINER(s_toolbar), item);
 	s_project_toolbar.collapse = item;
@@ -1308,7 +1306,7 @@ void prjorg_sidebar_init(void)
 	item = GTK_WIDGET(gtk_toggle_tool_button_new());
 	gtk_toggle_tool_button_set_active(GTK_TOGGLE_TOOL_BUTTON(item), TRUE);
 	gtk_tool_button_set_icon_name (GTK_TOOL_BUTTON(item), "prjorg-follow");
-	ui_widget_set_tooltip_text(item, _("Follow active editor"));
+	gtk_widget_set_tooltip_text(item, _("Follow active editor"));
 	g_signal_connect(item, "clicked", G_CALLBACK(on_follow_active), NULL);
 	gtk_container_add(GTK_CONTAINER(s_toolbar), item);
 	s_project_toolbar.follow = item;
@@ -1390,7 +1388,7 @@ void prjorg_sidebar_init(void)
 
 	image = gtk_image_new_from_stock(GTK_STOCK_FIND, GTK_ICON_SIZE_MENU);
 	gtk_widget_show(image);
-	item = gtk_image_menu_item_new_with_mnemonic(_("Find Tag..."));
+	item = gtk_image_menu_item_new_with_mnemonic(_("Find Symbol..."));
 	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(item), image);
 	gtk_widget_show(item);
 	gtk_container_add(GTK_CONTAINER(s_popup_menu.widget), item);

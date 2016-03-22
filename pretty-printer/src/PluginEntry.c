@@ -26,11 +26,10 @@
 
 GeanyPlugin*           geany_plugin;
 GeanyData*             geany_data;
-GeanyFunctions*        geany_functions;
 
 /*========================================== PLUGIN INFORMATION ==========================================================*/
 
-PLUGIN_VERSION_CHECK(130)
+PLUGIN_VERSION_CHECK(224)
 PLUGIN_SET_TRANSLATABLE_INFO(
     LOCALEDIR,
     GETTEXT_PACKAGE,
@@ -54,9 +53,6 @@ void plugin_init(GeanyData *data)
 {
     /* initializes the libxml2 */
     LIBXML_TEST_VERSION
-
-    /* mutilanguage support */
-    main_locale_init(LOCALEDIR, GETTEXT_PACKAGE);
 
     /* put the menu into the Tools */
     main_menu_item = gtk_menu_item_new_with_mnemonic(_("PrettyPrinter XML"));
